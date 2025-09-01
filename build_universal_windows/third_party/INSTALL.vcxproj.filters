@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Develop\Project\SwiftPeer\build_universal_windows\CMakeFiles\a93407c6bf0f300693517f800bb0bd11\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{E9691EFD-1941-3DB2-A110-FD81E66CC5D9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

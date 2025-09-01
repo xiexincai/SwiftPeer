@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/basic_c_api_example.dir/basic_usage/basic_c_api_example.c.o -o ../bin/basic_c_api_example  -Wl,-rpath,/mnt/d/Develop/Project/SwiftPeer/build_universal_linux/lib ../lib/libp2p_core.so.1.0.0 -ldl -lrt -lm 

@@ -1,11 +1,11 @@
 # SwiftPeer - 高性能P2P网络库
 
-[![CMake](https://github.com/your-username/SwiftPeer/actions/workflows/cmake.yml/badge.svg)](https://github.com/your-username/SwiftPeer/actions/workflows/cmake.yml)
+[![CMake](https://github.com/xiexincai/SwiftPeer/actions/workflows/cmake.yml/badge.svg)](https://github.com/xiexincai/SwiftPeer/actions/workflows/cmake.yml)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![C++17](https://img.shields.io/badge/C%2B%2B-17-blue.svg)](https://isocpp.org/std/the-standard)
-[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20Android-blue.svg)](https://github.com/your-username/SwiftPeer)
+[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20Android-blue.svg)](https://github.com/xiexincai/SwiftPeer)
 
-SwiftPeer是一个专为移动平台和嵌入式系统设计的高性能P2P网络库，提供轻量级、高效的P2P通信解决方案。
+SwiftPeer是一个轻量、灵活的跨平台P2P网络库，提供高性能、易集成的P2P通信解决方案。
 
 ## ✨ 核心特性
 
@@ -78,7 +78,7 @@ SwiftPeer是一个专为移动平台和嵌入式系统设计的高性能P2P网�
 
 ```bash
 # 克隆项目
-git clone https://github.com/xiebincai/SwiftPeer.git
+git clone https://github.com/xiexincai/SwiftPeer.git
 cd SwiftPeer
 
 # 配置和编译
@@ -93,7 +93,7 @@ cmake --build build --target test
 
 ```bash
 # 克隆项目
-git clone https://github.com/xiebincai/SwiftPeer.git
+git clone https://github.com/xiexincai/SwiftPeer.git
 cd SwiftPeer
 
 # 配置和编译
@@ -129,8 +129,24 @@ SwiftPeer/
 │   ├── integration/       # 集成示例
 │   └── benchmarks/        # 性能测试
 ├── tests/                  # 测试代码
+│   ├── fixtures/          # 测试数据
+│   ├── integration/       # 集成测试
+│   ├── mocks/             # 模拟对象
+│   ├── performance/       # 性能测试
+│   └── unit/              # 单元测试
 ├── scripts/                # 构建和部署脚本
+│   ├── build/             # 构建脚本
+│   ├── ci/                # CI/CD脚本
+│   ├── deploy/            # 部署脚本
+│   └── test/              # 测试脚本
 ├── tools/                  # 开发工具
+│   ├── build/             # 构建工具
+│   ├── codegen/           # 代码生成工具
+│   ├── deployment/        # 部署工具
+│   └── profiling/         # 性能分析工具
+├── third_party/            # 第三方依赖
+├── config/                 # 配置文件
+├── cmake/                  # CMake模块
 ├── CMakeLists.txt          # CMake配置
 ├── README.md               # 项目说明
 └── CROSS_PLATFORM_BUILD_GUIDE.md  # 跨平台构建指南
@@ -168,12 +184,12 @@ SwiftPeer/
 ## 📊 构建结果
 
 ### Windows版本
-- **DLL文件**: `build_cross_windows/src/p2p_core.dll`
-- **导入库**: `build_cross_windows/src/p2p_core.lib`
+- **DLL文件**: `build_cross_windows/src/p2p_core.dll` 或 `build_universal_windows/src/p2p_core.dll`
+- **导入库**: `build_cross_windows/src/p2p_core.lib` 或 `build_universal_windows/src/p2p_core.lib`
 - **头文件**: `include/p2p/`
 
 ### Linux版本
-- **共享库**: `build_cross_linux/src/libp2p_core.so`
+- **共享库**: `build_cross_linux/src/libp2p_core.so` 或 `build_universal_linux/src/libp2p_core.so`
 - **头文件**: `include/p2p/`
 
 ## 基本使用
@@ -346,7 +362,7 @@ ctest --test-dir build -R "unit_tests"
 
 ```bash
 # 克隆项目
-git clone https://github.com/your-username/SwiftPeer.git
+git clone https://github.com/xiexincai/SwiftPeer.git
 cd SwiftPeer
 
 # 创建开发分支
@@ -372,9 +388,9 @@ scripts/test/run_tests.bat
 
 ## 📞 联系我们
 
-- **GitHub Issues**: [报告问题](https://github.com/your-username/SwiftPeer/issues)
-- **GitHub Discussions**: [参与讨论](https://github.com/your-username/SwiftPeer/discussions)
-- **Email**: your-email@example.com
+- **GitHub Issues**: [报告问题](https://github.com/xiexincai/SwiftPeer/issues)
+- **GitHub Discussions**: [参与讨论](https://github.com/xiexincai/SwiftPeer/discussions)
+- **Email**: 546093470@qq.com
 
 ---
 

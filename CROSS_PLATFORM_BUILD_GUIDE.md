@@ -132,12 +132,12 @@ build_universal.bat --help
 ## 📊 构建结果
 
 ### Windows版本
-- **DLL文件**: `build_cross_windows/src/p2p_core.dll`
-- **导入库**: `build_cross_windows/src/p2p_core.lib`
+- **DLL文件**: `build_cross_windows/src/p2p_core.dll` 或 `build_universal_windows/src/p2p_core.dll`
+- **导入库**: `build_cross_windows/src/p2p_core.lib` 或 `build_universal_windows/src/p2p_core.lib`
 - **头文件**: `include/p2p/`
 
 ### Linux版本
-- **共享库**: `build_cross_linux/src/libp2p_core.so`
+- **共享库**: `build_cross_linux/src/libp2p_core.so` 或 `build_universal_linux/src/libp2p_core.so`
 - **头文件**: `include/p2p/`
 
 ## 🛠️ 环境要求
@@ -271,8 +271,8 @@ jobs:
       with:
         name: p2p-core-libs
         path: |
-          build_cross_windows/src/p2p_core.dll
-          build_cross_linux/src/libp2p_core.so
+          build_universal_windows/src/p2p_core.dll
+          build_universal_linux/src/libp2p_core.so
 ```
 
 ## 📚 最佳实践

@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -fPIC -O3 -DNDEBUG -O3 -DNDEBUG -flto CMakeFiles/live_streaming_integration.dir/integration/live_streaming_integration.cpp.o -o ../bin/live_streaming_integration  -Wl,-rpath,/mnt/d/Develop/Project/SwiftPeer/build_universal_linux/lib ../lib/libp2p_core.so.1.0.0 -ldl -lrt -lm 
