@@ -1,0 +1,10 @@
+D:/Develop/Project/SwiftPeer/build_cross_windows/CMakeFiles/INSTALL.dir
+D:/Develop/Project/SwiftPeer/build_cross_windows/CMakeFiles/ALL_BUILD.dir
+D:/Develop/Project/SwiftPeer/build_cross_windows/CMakeFiles/ZERO_CHECK.dir
+D:/Develop/Project/SwiftPeer/build_cross_windows/src/CMakeFiles/p2p_core.dir
+D:/Develop/Project/SwiftPeer/build_cross_windows/src/CMakeFiles/INSTALL.dir
+D:/Develop/Project/SwiftPeer/build_cross_windows/examples/CMakeFiles/cpp_api_example.dir
+D:/Develop/Project/SwiftPeer/build_cross_windows/examples/CMakeFiles/basic_c_api_example.dir
+D:/Develop/Project/SwiftPeer/build_cross_windows/examples/CMakeFiles/live_streaming_integration.dir
+D:/Develop/Project/SwiftPeer/build_cross_windows/examples/CMakeFiles/INSTALL.dir
+D:/Develop/Project/SwiftPeer/build_cross_windows/third_party/CMakeFiles/INSTALL.dir

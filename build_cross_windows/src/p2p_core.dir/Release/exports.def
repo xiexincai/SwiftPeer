@@ -1,0 +1,733 @@
+EXPORTS 
+	?$TSS0@?1??_GetStaticAmbientSchedulerStorage@details@Concurrency@@YAPEAV?$shared_ptr@Uscheduler_interface@Concurrency@@@std@@XZ@4HA 	 DATA
+	??_R0?AU?$_Task_impl@E@details@Concurrency@@@8 	 DATA
+	??_R0?AU_Crt_new_delete@std@@@8 	 DATA
+	??_R0?AU_TaskProcHandle@details@Concurrency@@@8 	 DATA
+	??_R0?AU_Task_impl_base@details@Concurrency@@@8 	 DATA
+	??_R0?AUscheduler_interface@Concurrency@@@8 	 DATA
+	??_R0?AV<lambda_052e919cc0e5399df76dff3972c0cac1>@@@8 	 DATA
+	??_R0?AV<lambda_2fa3e3d11fb97352afa77a4a13bfb543>@@@8 	 DATA
+	??_R0?AV<lambda_763529b0c7473cbc215a52d189ac9b18>@@@8 	 DATA
+	??_R0?AV<lambda_f25c37099038263181b5186a3fa41b37>@@@8 	 DATA
+	??_R0?AV?$_Associated_state@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@8 	 DATA
+	??_R0?AV?$_CancellationTokenCallback@V<lambda_be3e5d9dce35d2c8dbfa8485373731d5>@@@details@Concurrency@@@8 	 DATA
+	??_R0?AV?$_Deferred_async_state@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@8 	 DATA
+	??_R0?AV?$_Func_base@E$$V@std@@@8 	 DATA
+	??_R0?AV?$_Func_base@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$V@std@@@8 	 DATA
+	??_R0?AV?$_Func_base@X$$V@std@@@8 	 DATA
+	??_R0?AV?$_Func_base@XAEBUPieceData@p2p_core@@@std@@@8 	 DATA
+	??_R0?AV?$_Func_base@XAEBV?$shared_ptr@VIConnection@p2p_core@@@std@@@std@@@8 	 DATA
+	??_R0?AV?$_Func_base@XAEBV?$shared_ptr@VIConnection@p2p_core@@@std@@AEBUFrame@p2p_core@@@std@@@8 	 DATA
+	??_R0?AV?$_Func_impl_no_alloc@V<lambda_052e919cc0e5399df76dff3972c0cac1>@@E$$V@std@@@8 	 DATA
+	??_R0?AV?$_Func_impl_no_alloc@V<lambda_2fa3e3d11fb97352afa77a4a13bfb543>@@X$$V@std@@@8 	 DATA
+	??_R0?AV?$_Func_impl_no_alloc@V<lambda_763529b0c7473cbc215a52d189ac9b18>@@X$$V@std@@@8 	 DATA
+	??_R0?AV?$_Func_impl_no_alloc@V<lambda_f25c37099038263181b5186a3fa41b37>@@X$$V@std@@@8 	 DATA
+	??_R0?AV?$_Iosb@H@std@@@8 	 DATA
+	??_R0?AV?$_Node_class@DV?$regex_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$_Node_str@D@std@@@8 	 DATA
+	??_R0?AV?$_Packaged_state@$$A6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ@std@@@8 	 DATA
+	??_R0?AV?$_Ref_count_obj2@U?$_Task_impl@E@details@Concurrency@@@std@@@8 	 DATA
+	??_R0?AV?$_Ref_count_obj2@U_ExceptionHolder@details@Concurrency@@@std@@@8 	 DATA
+	??_R0?AV?$_Ref_count_obj2@VTcpConnection@p2p_core@@@std@@@8 	 DATA
+	??_R0?AV?$_Task_async_state@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ios@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_istream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@@8 	 DATA
+	??_R0?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@8 	 DATA
+	??_R0?AV?$collate@D@std@@@8 	 DATA
+	??_R0?AV?$enable_shared_from_this@VTcpConnection@p2p_core@@@std@@@8 	 DATA
+	??_R0?AVIConnection@p2p_core@@@8 	 DATA
+	??_R0?AVITcpTransport@p2p_core@@@8 	 DATA
+	??_R0?AVTcpConnection@p2p_core@@@8 	 DATA
+	??_R0?AVTcpTransport@p2p_core@@@8 	 DATA
+	??_R0?AV_CancellationTokenRegistration@details@Concurrency@@@8 	 DATA
+	??_R0?AV_DefaultPPLTaskScheduler@details@Concurrency@@@8 	 DATA
+	??_R0?AV_Facet_base@std@@@8 	 DATA
+	??_R0?AV_Future_error_category2@std@@@8 	 DATA
+	??_R0?AV_Generic_error_category@std@@@8 	 DATA
+	??_R0?AV_Interruption_exception@details@Concurrency@@@8 	 DATA
+	??_R0?AV_Node_assert@std@@@8 	 DATA
+	??_R0?AV_Node_back@std@@@8 	 DATA
+	??_R0?AV_Node_base@std@@@8 	 DATA
+	??_R0?AV_Node_capture@std@@@8 	 DATA
+	??_R0?AV_Node_end_group@std@@@8 	 DATA
+	??_R0?AV_Node_end_rep@std@@@8 	 DATA
+	??_R0?AV_Node_endif@std@@@8 	 DATA
+	??_R0?AV_Node_if@std@@@8 	 DATA
+	??_R0?AV_Node_rep@std@@@8 	 DATA
+	??_R0?AV_RefCounter@details@Concurrency@@@8 	 DATA
+	??_R0?AV_Ref_count_base@std@@@8 	 DATA
+	??_R0?AV_Root_node@std@@@8 	 DATA
+	??_R0?AV_System_error@std@@@8 	 DATA
+	??_R0?AVbad_alloc@std@@@8 	 DATA
+	??_R0?AVbad_array_new_length@std@@@8 	 DATA
+	??_R0?AVbad_cast@std@@@8 	 DATA
+	??_R0?AVbad_weak_ptr@std@@@8 	 DATA
+	??_R0?AVerror_category@std@@@8 	 DATA
+	??_R0?AVexception@std@@@8 	 DATA
+	??_R0?AVfacet@locale@std@@@8 	 DATA
+	??_R0?AVfuture_error@std@@@8 	 DATA
+	??_R0?AVinvalid_operation@Concurrency@@@8 	 DATA
+	??_R0?AVios_base@std@@@8 	 DATA
+	??_R0?AVlogic_error@std@@@8 	 DATA
+	??_R0?AVruntime_error@std@@@8 	 DATA
+	??_R0?AVsystem_error@std@@@8 	 DATA
+	??_R0?AVtask_canceled@Concurrency@@@8 	 DATA
+	?_Flag@?1??_GetStaticAmbientSchedulerRef@details@Concurrency@@YAAEAV?$shared_ptr@Uscheduler_interface@Concurrency@@@std@@XZ@4Uonce_flag@5@A 	 DATA
+	?_OptionsStorage@?1??__local_stdio_printf_options@@9@4_KA 	 DATA
+	?_Psave@?$_Facetptr@V?$collate@D@std@@@std@@2PEBVfacet@locale@2@EB 	 DATA
+	?_Psave@?$_Facetptr@V?$ctype@D@std@@@std@@2PEBVfacet@locale@2@EB 	 DATA
+	?_S_scheduler@?1??_GetStaticAmbientSchedulerStorage@details@Concurrency@@YAPEAV?$shared_ptr@Uscheduler_interface@Concurrency@@@std@@XZ@4V45@A 	 DATA
+	?_S_scheduler_address@?1??_GetStaticAmbientSchedulerRef@details@Concurrency@@YAAEAV?$shared_ptr@Uscheduler_interface@Concurrency@@@std@@XZ@4PEAV45@EA 	 DATA
+	?_Static@?1???$_Immortalize_memcpy_image@V_Future_error_category2@std@@@std@@YAAEBV_Future_error_category2@1@XZ@4U?$_Constexpr_immortalize_impl@V_Future_error_category2@std@@@1@A 	 DATA
+	?_Static@?1???$_Immortalize_memcpy_image@V_Generic_error_category@std@@@std@@YAAEBV_Generic_error_category@1@XZ@4U?$_Constexpr_immortalize_impl@V_Generic_error_category@std@@@1@A 	 DATA
+	_Avx2WmemEnabledWeakValue 	 DATA
+	??$?0PEAD$0A@@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@PEAD0AEBV?$allocator@D@1@@Z
+	??$?0V?$allocator@VKBucket@p2p_core@@@std@@$0A@@?$vector@VKBucket@p2p_core@@V?$allocator@VKBucket@p2p_core@@@std@@@std@@QEAA@_KAEBVKBucket@p2p_core@@AEBV?$allocator@VKBucket@p2p_core@@@1@@Z
+	??$?6DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z
+	??$?6U?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@PEBD@Z
+	??$?9DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@0@Z
+	??$?9U_Task_impl_base@details@Concurrency@@@std@@YA_NAEBV?$shared_ptr@U_Task_impl_base@details@Concurrency@@@0@$$T@Z
+	??$?CU_ExceptionHolder@details@Concurrency@@$0A@@?$shared_ptr@U_ExceptionHolder@details@Concurrency@@@std@@QEBAPEAU_ExceptionHolder@details@Concurrency@@XZ
+	??$_Allocate@$0BA@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z
+	??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z
+	??$_Assign_counted_range@PEAE@?$vector@EV?$allocator@E@std@@@std@@AEAAXPEAE_K@Z
+	??$_Assign_counted_range@PEAU_Grp_t@?$_Tgt_state_t@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@@?$vector@U_Grp_t@?$_Tgt_state_t@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@V?$allocator@U_Grp_t@?$_Tgt_state_t@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@@3@@std@@AEAAXPEAU_Grp_t@?$_Tgt_state_t@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@1@_K@Z
+	??$_Assign_counted_range@PEBE@?$vector@EV?$allocator@E@std@@@std@@AEAAXPEBE_K@Z
+	??$_Atomic_address_as@DU?$_Atomic_padded@_N@std@@@std@@YAPECDAEAU?$_Atomic_padded@_N@0@@Z
+	??$_Atomic_address_as@DU?$_Atomic_padded@_N@std@@@std@@YAPEDDAEBU?$_Atomic_padded@_N@0@@Z
+	??$_Atomic_address_as@HU?$_Atomic_padded@J@std@@@std@@YAPECHAEAU?$_Atomic_padded@J@0@@Z
+	??$_Atomic_address_as@HU?$_Atomic_padded@J@std@@@std@@YAPEDHAEBU?$_Atomic_padded@J@0@@Z
+	??$_Atomic_address_as@JU?$_Atomic_padded@J@std@@@std@@YAPECJAEAU?$_Atomic_padded@J@0@@Z
+	??$_Atomic_address_as@_JU?$_Atomic_padded@_K@std@@@std@@YAPEC_JAEAU?$_Atomic_padded@_K@0@@Z
+	??$_Atomic_address_as@_JU?$_Atomic_padded@_K@std@@@std@@YAPED_JAEBU?$_Atomic_padded@_K@0@@Z
+	??$_Atomic_reinterpret_as@D_N@std@@YADAEB_N@Z
+	??$_Atomic_reinterpret_as@HJ@std@@YAHAEBJ@Z
+	??$_Atomic_reinterpret_as@JJ@std@@YAJAEBJ@Z
+	??$_Clamped_rel_time_ms_count@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@chrono@std@@@std@@YA?AU_Clamped_rel_time_ms_count_result@0@AEBV?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@chrono@0@@Z
+	??$_Cmp_chrange@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@PEBDU?$_Cmp_collate@V?$regex_traits@D@std@@@2@@std@@YA?AV?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@0@V10@0PEBD1U?$_Cmp_collate@V?$regex_traits@D@std@@@0@@Z
+	??$_Cmp_chrange@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@PEBDU?$_Cmp_cs@V?$regex_traits@D@std@@@2@@std@@YA?AV?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@0@V10@0PEBD1U?$_Cmp_cs@V?$regex_traits@D@std@@@0@@Z
+	??$_Cmp_chrange@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@PEBDU?$_Cmp_icase@V?$regex_traits@D@std@@@2@@std@@YA?AV?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@0@V10@0PEBD1U?$_Cmp_icase@V?$regex_traits@D@std@@@0@@Z
+	??$_Cmp_chrange@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@V12@U?$_Cmp_collate@V?$regex_traits@D@std@@@2@@std@@YA?AV?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@0@V10@000U?$_Cmp_collate@V?$regex_traits@D@std@@@0@@Z
+	??$_Cmp_chrange@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@V12@U?$_Cmp_cs@V?$regex_traits@D@std@@@2@@std@@YA?AV?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@0@V10@000U?$_Cmp_cs@V?$regex_traits@D@std@@@0@@Z
+	??$_Cmp_chrange@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@V12@U?$_Cmp_icase@V?$regex_traits@D@std@@@2@@std@@YA?AV?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@0@V10@000U?$_Cmp_icase@V?$regex_traits@D@std@@@0@@Z
+	??$_Compare@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@PEBDV?$regex_traits@D@2@@std@@YA?AV?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@0@V10@0PEBD1AEBV?$regex_traits@D@0@W4syntax_option_type@regex_constants@0@@Z
+	??$_Compare@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@V12@V?$regex_traits@D@2@@std@@YA?AV?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@0@V10@000AEBV?$regex_traits@D@0@W4syntax_option_type@regex_constants@0@@Z
+	??$_Construct@$00PEBD@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAXQEBD_K@Z
+	??$_Copy_backward_memmove@PEAEPEAE@std@@YAPEAEPEAE00@Z
+	??$_Copy_backward_memmove@PEA_KPEA_K@std@@YAPEA_KPEA_K00@Z
+	??$_Copy_memmove@PEADPEAD@std@@YAPEADPEAD00@Z
+	??$_Copy_memmove@PEAEPEAE@std@@YAPEAEPEAE00@Z
+	??$_Copy_memmove@PEAIPEAI@std@@YAPEAIPEAI00@Z
+	??$_Copy_memmove@PEAPEAXPEAPEAX@std@@YAPEAPEAXPEAPEAX00@Z
+	??$_Copy_memmove@PEAU_Grp_t@?$_Tgt_state_t@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@PEAU123@@std@@YAPEAU_Grp_t@?$_Tgt_state_t@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@0@PEAU120@00@Z
+	??$_Copy_memmove@PEAU_Loop_vals_t@std@@PEAU12@@std@@YAPEAU_Loop_vals_t@0@PEAU10@00@Z
+	??$_Copy_memmove@PEAV?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@PEAV12@@std@@YAPEAV?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@0@PEAV10@00@Z
+	??$_Copy_memmove@PEA_KPEA_K@std@@YAPEA_KPEA_K00@Z
+	??$_Copy_memmove@PEBDPEAD@std@@YAPEADPEBD0PEAD@Z
+	??$_Copy_memmove_n@PEADPEAE@std@@YAPEAEPEAD_KPEAE@Z
+	??$_Copy_memmove_n@PEAEPEAE@std@@YAPEAEPEAE_K0@Z
+	??$_Copy_memmove_n@PEAIPEAI@std@@YAPEAIPEAI_K0@Z
+	??$_Copy_memmove_n@PEAPEAXPEAPEAX@std@@YAPEAPEAXPEAPEAX_K0@Z
+	??$_Copy_memmove_n@PEAU_Grp_t@?$_Tgt_state_t@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@PEAU123@@std@@YAPEAU_Grp_t@?$_Tgt_state_t@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@0@PEAU120@_K0@Z
+	??$_Copy_memmove_n@PEBEPEAE@std@@YAPEAEPEBE_KPEAE@Z
+	??$_Copy_memmove_tail@PEAD@std@@YAPEADQEBDQEAD_K2@Z
+	??$_Copy_memmove_tail@PEAE@std@@YAPEAEQEBDQEAE_K2@Z
+	??$_Copy_memmove_tail@PEAI@std@@YAPEAIQEBDQEAI_K2@Z
+	??$_Copy_memmove_tail@PEAPEAX@std@@YAPEAPEAXQEBDQEAPEAX_K2@Z
+	??$_Copy_memmove_tail@PEAU_Grp_t@?$_Tgt_state_t@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@@std@@YAPEAU_Grp_t@?$_Tgt_state_t@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@0@QEBDQEAU120@_K2@Z
+	??$_Copy_memmove_tail@PEAU_Loop_vals_t@std@@@std@@YAPEAU_Loop_vals_t@0@QEBDQEAU10@_K2@Z
+	??$_Copy_memmove_tail@PEAV?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@@std@@YAPEAV?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@0@QEBDQEAV10@_K2@Z
+	??$_Copy_memmove_tail@PEA_K@std@@YAPEA_KQEBDQEA_K_K2@Z
+	??$_Copy_vbool@V?$_Vb_iterator@U?$_Wrap_alloc@V?$allocator@I@std@@@std@@@std@@V12@@std@@YA?AV?$_Vb_iterator@U?$_Wrap_alloc@V?$allocator@I@std@@@std@@@0@V10@00@Z
+	??$_Emplace_reallocate@AEBUEndpoint@p2p_core@@@?$vector@UEndpoint@p2p_core@@V?$allocator@UEndpoint@p2p_core@@@std@@@std@@AEAAPEAUEndpoint@p2p_core@@QEAU23@AEBU23@@Z
+	??$_Emplace_reallocate@AEB_K@?$vector@_KV?$allocator@_K@std@@@std@@AEAAPEA_KQEA_KAEB_K@Z
+	??$_Emplace_reallocate@UEndpoint@p2p_core@@@?$vector@UEndpoint@p2p_core@@V?$allocator@UEndpoint@p2p_core@@@std@@@std@@AEAAPEAUEndpoint@p2p_core@@QEAU23@$$QEAU23@@Z
+	??$_Emplace_reallocate@UIceCandidate@p2p_core@@@?$vector@UIceCandidate@p2p_core@@V?$allocator@UIceCandidate@p2p_core@@@std@@@std@@AEAAPEAUIceCandidate@p2p_core@@QEAU23@$$QEAU23@@Z
+	??$_Fill_memset@PEAEE@std@@YAXPEAEE_K@Z
+	??$_Fill_zero_memset@PEAI@std@@YAXPEAI_K@Z
+	??$_Find_end_vectorized@$$CBD$$CBD@std@@YAPEBDQEBD00_K@Z
+	??$_Find_last@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UPieceData@p2p_core@@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UPieceData@p2p_core@@@std@@@2@$0A@@std@@@std@@IEBA?AU?$_Hash_find_last_result@PEAU?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UPieceData@p2p_core@@@std@@PEAX@std@@@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@_K@Z
+	??$_Find_last@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VIConnection@p2p_core@@@2@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VIConnection@p2p_core@@@2@@std@@@2@$0A@@std@@@std@@IEBA?AU?$_Hash_find_last_result@PEAU?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VIConnection@p2p_core@@@2@@std@@PEAX@std@@@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@_K@Z
+	??$_Find_last@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@UEndpoint@p2p_core@@V?$allocator@UEndpoint@p2p_core@@@std@@@2@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@UEndpoint@p2p_core@@V?$allocator@UEndpoint@p2p_core@@@std@@@2@@std@@@2@$0A@@std@@@std@@IEBA?AU?$_Hash_find_last_result@PEAU?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@UEndpoint@p2p_core@@V?$allocator@UEndpoint@p2p_core@@@std@@@2@@std@@PEAX@std@@@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@_K@Z
+	??$_Find_last@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@_KV?$allocator@_K@std@@@2@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@_KV?$allocator@_K@std@@@2@@std@@@2@$0A@@std@@@std@@IEBA?AU?$_Hash_find_last_result@PEAU?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@_KV?$allocator@_K@std@@@2@@std@@PEAX@std@@@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@_K@Z
+	??$_Find_last@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@?$_Hash@V?$_Uset_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@$0A@@std@@@std@@IEBA?AU?$_Hash_find_last_result@PEAU?$_List_node@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEAX@std@@@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@_K@Z
+	??$_Find_vectorized@$$CBDD@std@@YAPEBDQEBD0D@Z
+	??$_Find_vectorized@$$CBDE@std@@YAPEBDQEBD0E@Z
+	??$_Find_vectorized@_K_K@std@@YAPEA_KQEA_K0_K@Z
+	??$_Free_non_head@V?$allocator@U?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VIConnection@p2p_core@@@2@@std@@PEAX@std@@@std@@@?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VIConnection@p2p_core@@@2@@std@@PEAX@std@@SAXAEAV?$allocator@U?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VIConnection@p2p_core@@@2@@std@@PEAX@std@@@1@PEAU01@@Z
+	??$_Freenode@V?$allocator@U?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VIConnection@p2p_core@@@2@@std@@PEAX@std@@@std@@@?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VIConnection@p2p_core@@@2@@std@@PEAX@std@@SAXAEAV?$allocator@U?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VIConnection@p2p_core@@@2@@std@@PEAX@std@@@1@PEAU01@@Z
+	??$_Getvals@_W@?$time_get@DV?$istreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z
+	??$_Getvals@_W@?$time_get@_WV?$istreambuf_iterator@_WU?$char_traits@_W@std@@@std@@@std@@IEAAX_WAEBV_Locinfo@1@@Z
+	??$_Global_new@V?$_Func_impl_no_alloc@V<lambda_052e919cc0e5399df76dff3972c0cac1>@@E$$V@std@@AEBV<lambda_052e919cc0e5399df76dff3972c0cac1>@@@std@@YAPEAV?$_Func_impl_no_alloc@V<lambda_052e919cc0e5399df76dff3972c0cac1>@@E$$V@0@AEBV<lambda_052e919cc0e5399df76dff3972c0cac1>@@@Z
+	??$_Global_new@V?$_Func_impl_no_alloc@V<lambda_052e919cc0e5399df76dff3972c0cac1>@@E$$V@std@@V<lambda_052e919cc0e5399df76dff3972c0cac1>@@@std@@YAPEAV?$_Func_impl_no_alloc@V<lambda_052e919cc0e5399df76dff3972c0cac1>@@E$$V@0@$$QEAV<lambda_052e919cc0e5399df76dff3972c0cac1>@@@Z
+	??$_Guess_median_unchecked@PEA_KU?$less@X@std@@@std@@YAXPEA_K00U?$less@X@0@@Z
+	??$_Hash_array_representation@D@std@@YA_KQEBD_K@Z
+	??$_Immortalize_memcpy_image@V_Future_error_category2@std@@@std@@YAAEBV_Future_error_category2@0@XZ
+	??$_Immortalize_memcpy_image@V_Generic_error_category@std@@@std@@YAAEBV_Generic_error_category@0@XZ
+	??$_Insert2@PEBD@?$_Buf@D@std@@QEAAXPEBD0@Z
+	??$_Insert_counted_range@PEAD@?$vector@EV?$allocator@E@std@@@std@@AEAAXV?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@E@std@@@std@@@1@PEAD_K@Z
+	??$_Insert_counted_range@PEBE@?$vector@EV?$allocator@E@std@@@std@@AEAAXV?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@E@std@@@std@@@1@PEBE_K@Z
+	??$_Insert_string@DU?$char_traits@D@std@@_K@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@QEBD_K@Z
+	??$_Integral_to_string@DH@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@H@Z
+	??$_Invoke@V?$tuple@V<lambda_110332abff0d3524e6396fa11664c865>@@@std@@$0A@@thread@std@@CAIPEAX@Z
+	??$_Invoke@V?$tuple@V<lambda_13aa3756e255e5a3ee4ac2d7540d74ee>@@@std@@$0A@@thread@std@@CAIPEAX@Z
+	??$_Is_all_bits_zero@I@std@@YA_NAEBI@Z
+	??$_Lookup_coll@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@D@std@@YA?AV?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@0@V10@0PEBU?$_Sequence@D@0@@Z
+	??$_Lookup_equiv@DV?$regex_traits@D@std@@@std@@YA_NEPEBU?$_Sequence@D@0@AEBV?$regex_traits@D@0@@Z
+	??$_Lookup_range@D@std@@YA_NIPEBU?$_Buf@D@0@@Z
+	??$_Match@V?$allocator@V?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@@std@@@?$_Matcher@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@DV?$regex_traits@D@2@V12@@std@@QEAA_NPEAV?$match_results@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@V?$allocator@V?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@@2@@1@_N@Z
+	??$_Move_unchecked@PEAEPEAE@std@@YAPEAEPEAE00@Z
+	??$_Regex_match1@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@V?$allocator@V?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@@2@DV?$regex_traits@D@2@V12@@std@@YA_NV?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@0@0PEAV?$match_results@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@V?$allocator@V?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@@2@@0@AEBV?$basic_regex@DV?$regex_traits@D@std@@@0@W4match_flag_type@regex_constants@0@_N@Z
+	??$_Reset@PEBD@?$basic_regex@DV?$regex_traits@D@std@@@std@@AEAAXPEBD0W4syntax_option_type@regex_constants@1@@Z
+	??$_Resize_reallocate@I@?$vector@IV?$allocator@I@std@@@std@@AEAAX_KAEBI@Z
+	??$_Resize_reallocate@U_Value_init_tag@std@@@?$vector@U_Grp_t@?$_Tgt_state_t@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@V?$allocator@U_Grp_t@?$_Tgt_state_t@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@@3@@std@@AEAAX_KAEBU_Value_init_tag@1@@Z
+	??$_Resize_reallocate@U_Value_init_tag@std@@@?$vector@V?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@V?$allocator@V?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@@2@@std@@AEAAX_KAEBU_Value_init_tag@1@@Z
+	??$_Search_vectorized@$$CBD$$CBD@std@@YAPEBDQEBD00_K@Z
+	??$_Set_ptr_rep_and_enable_shared@VTcpConnection@p2p_core@@@?$shared_ptr@VTcpConnection@p2p_core@@@std@@AEAAXQEAVTcpConnection@p2p_core@@QEAV_Ref_count_base@1@@Z
+	??$_Sort_unchecked@PEA_KU?$less@X@std@@@std@@YAXPEA_K0_JU?$less@X@0@@Z
+	??$_Test_callable@V<lambda_052e919cc0e5399df76dff3972c0cac1>@@@std@@YA_NAEBV<lambda_052e919cc0e5399df76dff3972c0cac1>@@@Z
+	??$_Test_callable@V<lambda_2fa3e3d11fb97352afa77a4a13bfb543>@@@std@@YA_NAEBV<lambda_2fa3e3d11fb97352afa77a4a13bfb543>@@@Z
+	??$_Test_callable@V<lambda_763529b0c7473cbc215a52d189ac9b18>@@@std@@YA_NAEBV<lambda_763529b0c7473cbc215a52d189ac9b18>@@@Z
+	??$_Test_callable@V<lambda_f25c37099038263181b5186a3fa41b37>@@@std@@YA_NAEBV<lambda_f25c37099038263181b5186a3fa41b37>@@@Z
+	??$_To_absolute_time@_JU?$ratio@$00$0DOI@@std@@@std@@YA?A_PAEBV?$duration@_JU?$ratio@$00$0DOI@@std@@@chrono@0@@Z
+	??$_Try_emplace@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$V@?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UPieceData@p2p_core@@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UPieceData@p2p_core@@@std@@@2@$0A@@std@@@std@@IEAA?AU?$pair@PEAU?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UPieceData@p2p_core@@@std@@PEAX@std@@_N@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z
+	??$_Try_emplace@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$V@?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@UEndpoint@p2p_core@@V?$allocator@UEndpoint@p2p_core@@@std@@@2@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@UEndpoint@p2p_core@@V?$allocator@UEndpoint@p2p_core@@@std@@@2@@std@@@2@$0A@@std@@@std@@IEAA?AU?$pair@PEAU?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@UEndpoint@p2p_core@@V?$allocator@UEndpoint@p2p_core@@@std@@@2@@std@@PEAX@std@@_N@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z
+	??$_Try_emplace@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$V@?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@_KV?$allocator@_K@std@@@2@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@_KV?$allocator@_K@std@@@2@@std@@@2@$0A@@std@@@std@@IEAA?AU?$pair@PEAU?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@_KV?$allocator@_K@std@@@2@@std@@PEAX@std@@_N@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z
+	??$_Try_emplace@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$V@?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VIConnection@p2p_core@@@2@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VIConnection@p2p_core@@@2@@std@@@2@$0A@@std@@@std@@IEAA?AU?$pair@PEAU?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VIConnection@p2p_core@@@2@@std@@PEAX@std@@_N@1@$$QEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z
+	??$_UIntegral_to_buff@DI@std@@YAPEADPEADI@Z
+	??$_Uninitialized_move@PEAEV?$allocator@E@std@@@std@@YAPEAEQEAE0PEAEAEAV?$allocator@E@0@@Z
+	??$_Uninitialized_move@PEAUEndpoint@p2p_core@@V?$allocator@UEndpoint@p2p_core@@@std@@@std@@YAPEAUEndpoint@p2p_core@@QEAU12@0PEAU12@AEAV?$allocator@UEndpoint@p2p_core@@@0@@Z
+	??$_Uninitialized_move@PEAUIceCandidate@p2p_core@@V?$allocator@UIceCandidate@p2p_core@@@std@@@std@@YAPEAUIceCandidate@p2p_core@@QEAU12@0PEAU12@AEAV?$allocator@UIceCandidate@p2p_core@@@0@@Z
+	??$_Zero_range@PEAE@std@@YAPEAEQEAE0@Z
+	??$assign@V?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@$0A@@?$vector@EV?$allocator@E@std@@@std@@QEAAXV?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@1@0@Z
+	??$atomic_compare_exchange@J@details@Concurrency@@YAJAEAU?$atomic@J@std@@JJ@Z
+	??$atomic_exchange@J@details@Concurrency@@YAJAEAU?$atomic@J@std@@J@Z
+	??$call_once@V<lambda_0e64988457575224279dcb6d61e61bdd>@@$$V@std@@YAXAEAUonce_flag@0@$$QEAV<lambda_0e64988457575224279dcb6d61e61bdd>@@@Z
+	??$emplace@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@?$_Hash@V?$_Uset_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@$0A@@std@@@std@@QEAA?AU?$pair@V?$_List_const_iterator@V?$_List_val@U?$_List_simple_types@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@@std@@_N@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z
+	??$endl@DU?$char_traits@D@std@@@std@@YAAEAV?$basic_ostream@DU?$char_traits@D@std@@@0@AEAV10@@Z
+	??$fill@PEAV?$_List_unchecked_const_iterator@V?$_List_val@U?$_List_simple_types@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@U_Iterator_base0@2@@std@@V12@@std@@YAXQEAV?$_List_unchecked_const_iterator@V?$_List_val@U?$_List_simple_types@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@U_Iterator_base0@2@@0@0AEBV10@@Z
+	??$fill@PEAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UPieceData@p2p_core@@@std@@@std@@@std@@@std@@V12@@std@@YAXQEAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UPieceData@p2p_core@@@std@@@std@@@std@@@0@0AEBV10@@Z
+	??$fill@PEAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VIConnection@p2p_core@@@2@@std@@@std@@@std@@@std@@V12@@std@@YAXQEAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VIConnection@p2p_core@@@2@@std@@@std@@@std@@@0@0AEBV10@@Z
+	??$fill@PEAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@UEndpoint@p2p_core@@V?$allocator@UEndpoint@p2p_core@@@std@@@2@@std@@@std@@@std@@@std@@V12@@std@@YAXQEAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@UEndpoint@p2p_core@@V?$allocator@UEndpoint@p2p_core@@@std@@@2@@std@@@std@@@std@@@0@0AEBV10@@Z
+	??$fill@PEAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@_KV?$allocator@_K@std@@@2@@std@@@std@@@std@@@std@@V12@@std@@YAXQEAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@_KV?$allocator@_K@std@@@2@@std@@@std@@@std@@@0@0AEBV10@@Z
+	??$getline@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@YAAEAV?$basic_istream@DU?$char_traits@D@std@@@0@$$QEAV10@AEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@D@Z
+	??$getline@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@YAAEAV?$basic_istream@DU?$char_traits@D@std@@@0@AEAV10@AEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z
+	??$getline@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@YAAEAV?$basic_istream@DU?$char_traits@D@std@@@0@AEAV10@AEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@D@Z
+	??$lookup_classname@PEBD@?$_Regex_traits@D@std@@QEBAFPEBD0_N@Z
+	??$regex_match@U?$char_traits@D@std@@V?$allocator@D@2@V?$allocator@V?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@@2@DV?$regex_traits@D@2@@std@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@AEAV?$match_results@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@V?$allocator@V?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@@2@@0@AEBV?$basic_regex@DV?$regex_traits@D@std@@@0@W4match_flag_type@regex_constants@0@@Z
+	??$setfill@D@std@@YA?AU?$_Fillobj@D@0@D@Z
+	??$sleep_for@_JU?$ratio@$00$0DOI@@std@@@this_thread@std@@YAXAEBV?$duration@_JU?$ratio@$00$0DOI@@std@@@chrono@1@@Z
+	??$sleep_until@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@this_thread@std@@YAXAEBV?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@chrono@1@@Z
+	??$transform_primary@PEBD@?$_Regex_traits@D@std@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@PEBD0@Z
+	??$transform_primary@V?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@?$_Regex_traits@D@std@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@V?$_String_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@1@0@Z
+	??$uninitialized_fill@PEAV?$_List_unchecked_const_iterator@V?$_List_val@U?$_List_simple_types@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@U_Iterator_base0@2@@std@@V12@@std@@YAXQEAV?$_List_unchecked_const_iterator@V?$_List_val@U?$_List_simple_types@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@U_Iterator_base0@2@@0@0AEBV10@@Z
+	??$uninitialized_fill@PEAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UPieceData@p2p_core@@@std@@@std@@@std@@@std@@V12@@std@@YAXQEAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UPieceData@p2p_core@@@std@@@std@@@std@@@0@0AEBV10@@Z
+	??$uninitialized_fill@PEAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VIConnection@p2p_core@@@2@@std@@@std@@@std@@@std@@V12@@std@@YAXQEAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VIConnection@p2p_core@@@2@@std@@@std@@@std@@@0@0AEBV10@@Z
+	??$uninitialized_fill@PEAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@UEndpoint@p2p_core@@V?$allocator@UEndpoint@p2p_core@@@std@@@2@@std@@@std@@@std@@@std@@V12@@std@@YAXQEAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@UEndpoint@p2p_core@@V?$allocator@UEndpoint@p2p_core@@@std@@@2@@std@@@std@@@std@@@0@0AEBV10@@Z
+	??$uninitialized_fill@PEAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@_KV?$allocator@_K@std@@@2@@std@@@std@@@std@@@std@@V12@@std@@YAXQEAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@_KV?$allocator@_K@std@@@2@@std@@@std@@@std@@@0@0AEBV10@@Z
+	??$use_facet@V?$collate@D@std@@@std@@YAAEBV?$collate@D@0@AEBVlocale@0@@Z
+	??$use_facet@V?$ctype@D@std@@@std@@YAAEBV?$ctype@D@0@AEBVlocale@0@@Z
+	??0?$_Bt_state_t@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@QEAA@AEBV01@@Z
+	??0?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@QEAA@AEBV?$regex_traits@D@1@W4syntax_option_type@regex_constants@1@@Z
+	??0?$_Matcher@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@DV?$regex_traits@D@2@V12@@std@@QEAA@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@1@0AEBV?$regex_traits@D@1@PEAV_Root_node@1@IW4syntax_option_type@regex_constants@1@W4match_flag_type@61@@Z
+	??0?$_Parser@PEBDDV?$regex_traits@D@std@@@std@@QEAA@AEBV?$regex_traits@D@1@PEBD1W4syntax_option_type@regex_constants@1@@Z
+	??0?$_Tgt_state_t@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@QEAA@AEBV01@@Z
+	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@AEBV01@@Z
+	??0?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@H@Z
+	??0?$vector@UEndpoint@p2p_core@@V?$allocator@UEndpoint@p2p_core@@@std@@@std@@QEAA@AEBV01@@Z
+	??0?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QEAA@AEBV01@@Z
+	??0DnsResolver@p2p_core@@QEAA@XZ
+	??0IConnection@p2p_core@@QEAA@AEBV01@@Z
+	??0IConnection@p2p_core@@QEAA@XZ
+	??0ITcpTransport@p2p_core@@QEAA@AEBV01@@Z
+	??0ITcpTransport@p2p_core@@QEAA@XZ
+	??0InMemorySegmentStore@p2p_core@@QEAA@XZ
+	??0KademliaDht@p2p_core@@QEAA@V?$array@E$0BE@@std@@_K@Z
+	??0MinimalIce@p2p_core@@QEAA@AEBUP2PConfig@1@@Z
+	??0NetStackInit@p2p_core@@QEAA@XZ
+	??0P2PConfig@p2p_core@@QEAA@$$QEAU01@@Z
+	??0P2PConfig@p2p_core@@QEAA@XZ
+	??0PeerEngine@p2p_core@@QEAA@UP2PConfig@1@@Z
+	??0SimpleDhtNode@p2p_core@@QEAA@XZ
+	??0TcpConnection@p2p_core@@QEAA@HUEndpoint@1@V?$function@$$A6AXAEBV?$shared_ptr@VIConnection@p2p_core@@@std@@AEBUFrame@p2p_core@@@Z@std@@V?$function@$$A6AXAEBV?$shared_ptr@VIConnection@p2p_core@@@std@@@Z@4@@Z
+	??0TokenBucketLimiter@p2p_core@@QEAA@NN@Z
+	??0TrackerClient@p2p_core@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+	??0TurnClient@p2p_core@@QEAA@AEBUP2PConfig@1@@Z
+	??0_System_error@std@@QEAA@AEBV01@@Z
+	??0_TaskCreationCallstack@details@Concurrency@@QEAA@AEBV012@@Z
+	??0_Task_impl_base@details@Concurrency@@QEAA@PEAV_CancellationTokenState@12@Uscheduler_ptr@2@@Z
+	??0bad_alloc@std@@QEAA@AEBV01@@Z
+	??0bad_array_new_length@std@@QEAA@AEBV01@@Z
+	??0bad_array_new_length@std@@QEAA@XZ
+	??0bad_cast@std@@QEAA@AEBV01@@Z
+	??0bad_cast@std@@QEAA@XZ
+	??0bad_weak_ptr@std@@QEAA@AEBV01@@Z
+	??0bad_weak_ptr@std@@QEAA@XZ
+	??0exception@std@@QEAA@AEBV01@@Z
+	??0exception_ptr@std@@QEAA@AEBV01@@Z
+	??0future_error@std@@QEAA@AEBV01@@Z
+	??0future_error@std@@QEAA@W4future_errc@1@@Z
+	??0invalid_operation@Concurrency@@QEAA@AEBV01@@Z
+	??0invalid_operation@Concurrency@@QEAA@PEBD@Z
+	??0logic_error@std@@QEAA@AEBV01@@Z
+	??0runtime_error@std@@QEAA@AEBV01@@Z
+	??0runtime_error@std@@QEAA@PEBD@Z
+	??0system_error@std@@QEAA@AEBV01@@Z
+	??0system_error@std@@QEAA@Verror_code@1@@Z
+	??1?$_Associated_state@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@UEAA@XZ
+	??1?$_Hash_vec@V?$allocator@V?$_List_unchecked_const_iterator@V?$_List_val@U?$_List_simple_types@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@U_Iterator_base0@2@@std@@@std@@@std@@QEAA@XZ
+	??1?$_Hash_vec@V?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VIConnection@p2p_core@@@2@@std@@@std@@@std@@@std@@@std@@@std@@QEAA@XZ
+	??1?$_Hash_vec@V?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@UEndpoint@p2p_core@@V?$allocator@UEndpoint@p2p_core@@@std@@@2@@std@@@std@@@std@@@std@@@std@@@std@@QEAA@XZ
+	??1?$_Packaged_state@$$A6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ@std@@UEAA@XZ
+	??1?$_Ref_count_obj2@U?$_Task_impl@E@details@Concurrency@@@std@@UEAA@XZ
+	??1?$_Ref_count_obj2@U_ExceptionHolder@details@Concurrency@@@std@@UEAA@XZ
+	??1?$_Ref_count_obj2@VTcpConnection@p2p_core@@@std@@UEAA@XZ
+	??1?$_Task_async_state@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@UEAA@XZ
+	??1?$_Task_impl@E@details@Concurrency@@UEAA@XZ
+	??1?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+	??1?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAA@XZ
+	??1?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UEAA@XZ
+	??1?$collate@D@std@@MEAA@XZ
+	??1?$list@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@UEndpoint@p2p_core@@V?$allocator@UEndpoint@p2p_core@@@std@@@2@@std@@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@UEndpoint@p2p_core@@V?$allocator@UEndpoint@p2p_core@@@std@@@2@@std@@@2@@std@@QEAA@XZ
+	??1?$list@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QEAA@XZ
+	??1?$vector@EV?$allocator@E@std@@@std@@QEAA@XZ
+	??1?$vector@UEndpoint@p2p_core@@V?$allocator@UEndpoint@p2p_core@@@std@@@std@@QEAA@XZ
+	??1?$vector@UIceCandidate@p2p_core@@V?$allocator@UIceCandidate@p2p_core@@@std@@@std@@QEAA@XZ
+	??1?$vector@U_Loop_vals_t@std@@V?$allocator@U_Loop_vals_t@std@@@2@@std@@QEAA@XZ
+	??1?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QEAA@XZ
+	??1?$vector@_KV?$allocator@_K@std@@@std@@QEAA@XZ
+	??1IConnection@p2p_core@@UEAA@XZ
+	??1ITcpTransport@p2p_core@@UEAA@XZ
+	??1InMemorySegmentStore@p2p_core@@QEAA@XZ
+	??1NetStackInit@p2p_core@@QEAA@XZ
+	??1P2PConfig@p2p_core@@QEAA@XZ
+	??1PeerEngine@p2p_core@@QEAA@XZ
+	??1SimpleDhtNode@p2p_core@@QEAA@XZ
+	??1TcpConnection@p2p_core@@UEAA@XZ
+	??1TcpTransport@p2p_core@@UEAA@XZ
+	??1_CancellationTokenRegistration@details@Concurrency@@MEAA@XZ
+	??1_ExceptionHolder@details@Concurrency@@QEAA@XZ
+	??1_Node_base@std@@UEAA@XZ
+	??1_Reallocation_guard@?$vector@UEndpoint@p2p_core@@V?$allocator@UEndpoint@p2p_core@@@std@@@std@@QEAA@XZ
+	??1_RefCounter@details@Concurrency@@UEAA@XZ
+	??1_Ref_count_base@std@@UEAA@XZ
+	??1_TaskProcHandle@details@Concurrency@@UEAA@XZ
+	??1_Task_impl_base@details@Concurrency@@UEAA@XZ
+	??1bad_array_new_length@std@@UEAA@XZ
+	??1bad_cast@std@@UEAA@XZ
+	??1bad_weak_ptr@std@@UEAA@XZ
+	??1error_category@std@@UEAA@XZ
+	??1exception@std@@UEAA@XZ
+	??1exception_ptr@std@@QEAA@XZ
+	??1future_error@std@@UEAA@XZ
+	??1invalid_operation@Concurrency@@UEAA@XZ
+	??1runtime_error@std@@UEAA@XZ
+	??1system_error@std@@UEAA@XZ
+	??1task_options@Concurrency@@QEAA@XZ
+	??2@YAPEAX_KPEAX@Z
+	??4?$_Tgt_state_t@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@QEAAAEAV01@AEBV01@@Z
+	??4?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV01@$$QEAV01@@Z
+	??4?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV01@QEBD@Z
+	??4?$vector@IV?$allocator@I@std@@@std@@QEAAAEAV01@AEBV01@@Z
+	??4?$vector@PEAXV?$allocator@PEAX@std@@@std@@QEAAAEAV01@AEBV01@@Z
+	??4IConnection@p2p_core@@QEAAAEAV01@AEBV01@@Z
+	??4ITcpTransport@p2p_core@@QEAAAEAV01@AEBV01@@Z
+	??4PieceData@p2p_core@@QEAAAEAU01@AEBU01@@Z
+	??B?$atomic@J@std@@QEBAJXZ
+	??H?$_Vb_iterator@U?$_Wrap_alloc@V?$allocator@I@std@@@std@@@std@@QEBA?AV01@_J@Z
+	??R<lambda_0e64988457575224279dcb6d61e61bdd>@@QEBA@XZ
+	??R<lambda_2fa3e3d11fb97352afa77a4a13bfb543>@@QEBA@XZ
+	??R?$mersenne_twister@I$0CA@$0CHA@$0BIN@$0BP@$0JJAILANP@$0L@$06$0JNCMFGIA@$0P@$0OPMGAAAA@$0BC@@std@@QEAAIXZ
+	??_7?$_Associated_state@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@6B@
+	??_7?$_CancellationTokenCallback@V<lambda_be3e5d9dce35d2c8dbfa8485373731d5>@@@details@Concurrency@@6B@
+	??_7?$_Deferred_async_state@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@6B@
+	??_7?$_Func_impl_no_alloc@V<lambda_052e919cc0e5399df76dff3972c0cac1>@@E$$V@std@@6B@
+	??_7?$_Func_impl_no_alloc@V<lambda_2fa3e3d11fb97352afa77a4a13bfb543>@@X$$V@std@@6B@
+	??_7?$_Func_impl_no_alloc@V<lambda_763529b0c7473cbc215a52d189ac9b18>@@X$$V@std@@6B@
+	??_7?$_Func_impl_no_alloc@V<lambda_f25c37099038263181b5186a3fa41b37>@@X$$V@std@@6B@
+	??_7?$_Node_class@DV?$regex_traits@D@std@@@std@@6B@
+	??_7?$_Node_str@D@std@@6B@
+	??_7?$_Packaged_state@$$A6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ@std@@6B@
+	??_7?$_Ref_count_obj2@U?$_Task_impl@E@details@Concurrency@@@std@@6B@
+	??_7?$_Ref_count_obj2@U_ExceptionHolder@details@Concurrency@@@std@@6B@
+	??_7?$_Ref_count_obj2@VTcpConnection@p2p_core@@@std@@6B@
+	??_7?$_Task_async_state@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@6B@
+	??_7?$_Task_impl@E@details@Concurrency@@6B@
+	??_7?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@6B@
+	??_7?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@6B@
+	??_7?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@6B@
+	??_7?$collate@D@std@@6B@
+	??_7IConnection@p2p_core@@6B@
+	??_7ITcpTransport@p2p_core@@6B@
+	??_7TcpConnection@p2p_core@@6B@
+	??_7TcpTransport@p2p_core@@6B@
+	??_7_CancellationTokenRegistration@details@Concurrency@@6B@
+	??_7_DefaultPPLTaskScheduler@details@Concurrency@@6B@
+	??_7_Future_error_category2@std@@6B@
+	??_7_Generic_error_category@std@@6B@
+	??_7_Node_assert@std@@6B@
+	??_7_Node_back@std@@6B@
+	??_7_Node_base@std@@6B@
+	??_7_Node_capture@std@@6B@
+	??_7_Node_end_group@std@@6B@
+	??_7_Node_end_rep@std@@6B@
+	??_7_Node_endif@std@@6B@
+	??_7_Node_if@std@@6B@
+	??_7_Node_rep@std@@6B@
+	??_7_RefCounter@details@Concurrency@@6B@
+	??_7_Root_node@std@@6B@
+	??_7_System_error@std@@6B@
+	??_7_TaskProcHandle@details@Concurrency@@6B@
+	??_7_Task_impl_base@details@Concurrency@@6B@
+	??_7bad_alloc@std@@6B@
+	??_7bad_array_new_length@std@@6B@
+	??_7bad_cast@std@@6B@
+	??_7bad_weak_ptr@std@@6B@
+	??_7exception@std@@6B@
+	??_7future_error@std@@6B@
+	??_7invalid_operation@Concurrency@@6B@
+	??_7logic_error@std@@6B@
+	??_7runtime_error@std@@6B@
+	??_7system_error@std@@6B@
+	??_D?$basic_istringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAXXZ
+	??_D?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAXXZ
+	??_I@YAXPEAX_K1P6AX0@Z@Z
+	??__F_S_scheduler@?1??_GetStaticAmbientSchedulerStorage@details@Concurrency@@YAPEAV?$shared_ptr@Uscheduler_interface@Concurrency@@@std@@XZ@YAXXZ
+	?_Add_backreference@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@QEAAXI@Z
+	?_Add_bol@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@QEAAXXZ
+	?_Add_char@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@QEAAXD@Z
+	?_Add_char_to_array@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@AEAAXD@Z
+	?_Add_char_to_bitmap@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@AEAAXD@Z
+	?_Add_char_to_class@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@QEAAXD@Z
+	?_Add_class@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@QEAAXXZ
+	?_Add_coll@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@QEAAXPEBD0_J@Z
+	?_Add_dot@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@QEAAXXZ
+	?_Add_elts@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@AEAAXPEAV?$_Node_class@DV?$regex_traits@D@std@@@2@F_N@Z
+	?_Add_eol@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@QEAAXXZ
+	?_Add_equiv@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@QEAAXPEBD0_J@Z
+	?_Add_named_class@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@QEAAXF_N@Z
+	?_Add_range2@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@QEAAXDD@Z
+	?_Add_rep@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@QEAAXHH_N@Z
+	?_Add_str_node@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@AEAAXXZ
+	?_Add_wbound@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@QEAAXXZ
+	?_Alternative@?$_Parser@PEBDDV?$regex_traits@D@std@@@std@@AEAA_NXZ
+	?_Assign_grow@?$_Hash_vec@V?$allocator@V?$_List_unchecked_const_iterator@V?$_List_val@U?$_List_simple_types@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@U_Iterator_base0@2@@std@@@std@@@std@@QEAAX_KV?$_List_unchecked_const_iterator@V?$_List_val@U?$_List_simple_types@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@U_Iterator_base0@2@@2@@Z
+	?_Assign_grow@?$_Hash_vec@V?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UPieceData@p2p_core@@@std@@@std@@@std@@@std@@@std@@@std@@QEAAX_KV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UPieceData@p2p_core@@@std@@@std@@@std@@@2@@Z
+	?_Assign_grow@?$_Hash_vec@V?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VIConnection@p2p_core@@@2@@std@@@std@@@std@@@std@@@std@@@std@@QEAAX_KV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VIConnection@p2p_core@@@2@@std@@@std@@@std@@@2@@Z
+	?_Assign_grow@?$_Hash_vec@V?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@UEndpoint@p2p_core@@V?$allocator@UEndpoint@p2p_core@@@std@@@2@@std@@@std@@@std@@@std@@@std@@@std@@QEAAX_KV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@UEndpoint@p2p_core@@V?$allocator@UEndpoint@p2p_core@@@std@@@2@@std@@@std@@@std@@@2@@Z
+	?_Assign_grow@?$_Hash_vec@V?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@_KV?$allocator@_K@std@@@2@@std@@@std@@@std@@@std@@@std@@@std@@QEAAX_KV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@_KV?$allocator@_K@std@@@2@@std@@@std@@@std@@@2@@Z
+	?_AtomEscape@?$_Parser@PEBDDV?$regex_traits@D@std@@@std@@AEAAXXZ
+	?_Beg_expr@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@AEBA_NPEAV_Node_base@2@@Z
+	?_Beg_expr@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@QEBA_NXZ
+	?_Begin_assert_group@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@QEAAPEAV_Node_base@2@_N@Z
+	?_Begin_capture_group@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@QEAAPEAV_Node_base@2@I@Z
+	?_Begin_group@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@QEAAPEAV_Node_base@2@XZ
+	?_Begin_if@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@QEAAPEAV_Node_base@2@PEAV32@@Z
+	?_Better_match@?$_Matcher@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@DV?$regex_traits@D@2@V12@@std@@AEAA_NXZ
+	?_Bridge@_TaskProcThunk@details@Concurrency@@SAXPEAX@Z
+	?_Calculate_loop_simplicity@std@@YAXPEAV_Node_base@1@0PEAV_Node_rep@1@@Z
+	?_CallInContext@_ContextCallback@details@Concurrency@@QEBAXV?$function@$$A6AXXZ@std@@@Z
+	?_Call_immediate@?$_Packaged_state@$$A6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ@std@@QEAAXXZ
+	?_Callback@_PPLTaskChore@_DefaultPPLTaskScheduler@details@Concurrency@@CAXPEAX@Z
+	?_CancelAndRunContinuations@?$_Task_impl@E@details@Concurrency@@UEAA_N_N00AEBV?$shared_ptr@U_ExceptionHolder@details@Concurrency@@@std@@@Z
+	?_CancelWithException@_Task_impl_base@details@Concurrency@@QEAA_NAEBVexception_ptr@std@@@Z
+	?_Change_array@?$vector@EV?$allocator@E@std@@@std@@AEAAXQEAE_K1@Z
+	?_Change_array@?$vector@UEndpoint@p2p_core@@V?$allocator@UEndpoint@p2p_core@@@std@@@std@@AEAAXQEAUEndpoint@p2p_core@@_K1@Z
+	?_Char_to_elts@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@AEAAXPEBD0_JPEAPEAU?$_Sequence@D@2@@Z
+	?_CharacterClass@?$_Parser@PEBDDV?$regex_traits@D@std@@@std@@AEAAXXZ
+	?_CharacterClassEscape@?$_Parser@PEBDDV?$regex_traits@D@std@@@std@@AEAA_N_N@Z
+	?_CharacterEscape@?$_Parser@PEBDDV?$regex_traits@D@std@@@std@@AEAA_NXZ
+	?_ClassAtom@?$_Parser@PEBDDV?$regex_traits@D@std@@@std@@AEAA?AW4_Prs_ret@2@XZ
+	?_ClassEscape2@?$_Parser@PEBDDV?$regex_traits@D@std@@@std@@AEAA?AW4_Prs_ret@2@XZ
+	?_ClassRanges@?$_Parser@PEBDDV?$regex_traits@D@std@@@std@@AEAAXXZ
+	?_Clear_and_reserve_geometric@?$vector@EV?$allocator@E@std@@@std@@AEAAX_K@Z
+	?_Compile@?$_Parser@PEBDDV?$regex_traits@D@std@@@std@@QEAAPEAV_Root_node@2@XZ
+	?_Complete@_TaskCollectionBaseImpl@details@Concurrency@@QEAAXXZ
+	?_Copy@?$_Func_impl_no_alloc@V<lambda_052e919cc0e5399df76dff3972c0cac1>@@E$$V@std@@EEBAPEAV?$_Func_base@E$$V@2@PEAX@Z
+	?_Copy@?$_Func_impl_no_alloc@V<lambda_2fa3e3d11fb97352afa77a4a13bfb543>@@X$$V@std@@EEBAPEAV?$_Func_base@X$$V@2@PEAX@Z
+	?_Copy@?$_Func_impl_no_alloc@V<lambda_763529b0c7473cbc215a52d189ac9b18>@@X$$V@std@@EEBAPEAV?$_Func_base@X$$V@2@PEAX@Z
+	?_Copy@?$_Func_impl_no_alloc@V<lambda_f25c37099038263181b5186a3fa41b37>@@X$$V@std@@EEBAPEAV?$_Func_base@X$$V@2@PEAX@Z
+	?_CreateImpl@?$task@E@Concurrency@@QEAAXPEAV_CancellationTokenState@details@2@Uscheduler_ptr@2@@Z
+	?_Deallocate_for_capacity@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@CAXAEAV?$allocator@D@2@QEAD_K@Z
+	?_DecimalDigits2@?$_Parser@PEBDDV?$regex_traits@D@std@@@std@@AEAA_NW4error_type@regex_constants@2@H@Z
+	?_Delete_this@?$_Func_impl_no_alloc@V<lambda_052e919cc0e5399df76dff3972c0cac1>@@E$$V@std@@EEAAX_N@Z
+	?_Delete_this@?$_Func_impl_no_alloc@V<lambda_2fa3e3d11fb97352afa77a4a13bfb543>@@X$$V@std@@EEAAX_N@Z
+	?_Delete_this@?$_Func_impl_no_alloc@V<lambda_763529b0c7473cbc215a52d189ac9b18>@@X$$V@std@@EEAAX_N@Z
+	?_Delete_this@?$_Func_impl_no_alloc@V<lambda_f25c37099038263181b5186a3fa41b37>@@X$$V@std@@EEAAX_N@Z
+	?_Delete_this@?$_Ref_count_obj2@U?$_Task_impl@E@details@Concurrency@@@std@@EEAAXXZ
+	?_Delete_this@?$_Ref_count_obj2@U_ExceptionHolder@details@Concurrency@@@std@@EEAAXXZ
+	?_Delete_this@?$_Ref_count_obj2@VTcpConnection@p2p_core@@@std@@EEAAXXZ
+	?_DeregisterCallback@_CancellationTokenState@details@Concurrency@@QEAAXPEAV_CancellationTokenRegistration@23@@Z
+	?_Destroy@?$_Ref_count_obj2@U?$_Task_impl@E@details@Concurrency@@@std@@EEAAXXZ
+	?_Destroy@?$_Ref_count_obj2@U_ExceptionHolder@details@Concurrency@@@std@@EEAAXXZ
+	?_Destroy@?$_Ref_count_obj2@VTcpConnection@p2p_core@@@std@@EEAAXXZ
+	?_Destroy@_RefCounter@details@Concurrency@@MEAAXXZ
+	?_Disjunction@?$_Parser@PEBDDV?$regex_traits@D@std@@@std@@AEAAXXZ
+	?_Do_assert_group@?$_Parser@PEBDDV?$regex_traits@D@std@@@std@@AEAAX_N@Z
+	?_Do_call@?$_Func_impl_no_alloc@V<lambda_052e919cc0e5399df76dff3972c0cac1>@@E$$V@std@@EEAAEXZ
+	?_Do_call@?$_Func_impl_no_alloc@V<lambda_2fa3e3d11fb97352afa77a4a13bfb543>@@X$$V@std@@EEAAXXZ
+	?_Do_call@?$_Func_impl_no_alloc@V<lambda_763529b0c7473cbc215a52d189ac9b18>@@X$$V@std@@EEAAXXZ
+	?_Do_call@?$_Func_impl_no_alloc@V<lambda_f25c37099038263181b5186a3fa41b37>@@X$$V@std@@EEAAXXZ
+	?_Do_capture_group@?$_Parser@PEBDDV?$regex_traits@D@std@@@std@@AEAAXXZ
+	?_Do_class@?$_Matcher@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@DV?$regex_traits@D@2@V12@@std@@AEAA_NPEAV_Node_base@2@@Z
+	?_Do_digits@?$_Parser@PEBDDV?$regex_traits@D@std@@@std@@AEAAHHHW4error_type@regex_constants@2@@Z
+	?_Do_ex_class@?$_Parser@PEBDDV?$regex_traits@D@std@@@std@@AEAAXW4_Meta_type@2@@Z
+	?_Do_ffn@?$_Parser@PEBDDV?$regex_traits@D@std@@@std@@AEAA_ND@Z
+	?_Do_ffnx@?$_Parser@PEBDDV?$regex_traits@D@std@@@std@@AEAA_ND@Z
+	?_Do_if@?$_Matcher@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@DV?$regex_traits@D@2@V12@@std@@AEAA_NPEAV_Node_if@2@@Z
+	?_Do_noncapture_group@?$_Parser@PEBDDV?$regex_traits@D@std@@@std@@AEAAXXZ
+	?_Do_notify@?$_Associated_state@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@EEAAXPEAV?$unique_lock@Vmutex@std@@@2@_N@Z
+	?_Do_rep0@?$_Matcher@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@DV?$regex_traits@D@2@V12@@std@@AEAA_NPEAV_Node_rep@2@_N@Z
+	?_Do_rep@?$_Matcher@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@DV?$regex_traits@D@2@V12@@std@@AEAA_NPEAV_Node_rep@2@_NH@Z
+	?_Else_if@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@QEAAXPEAV_Node_base@2@0@Z
+	?_End_assert_group@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@QEAAXPEAV_Node_base@2@@Z
+	?_End_group@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@QEAAXPEAV_Node_base@2@@Z
+	?_End_pattern@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@QEAAPEAV_Root_node@2@XZ
+	?_Error@?$_Parser@PEBDDV?$regex_traits@D@std@@@std@@AEAAXW4error_type@regex_constants@2@@Z
+	?_Exec@?$_CancellationTokenCallback@V<lambda_be3e5d9dce35d2c8dbfa8485373731d5>@@@details@Concurrency@@MEAAXXZ
+	?_Expect@?$_Parser@PEBDDV?$regex_traits@D@std@@@std@@AEAAXW4_Meta_type@2@W4error_type@regex_constants@2@@Z
+	?_FinalizeAndRunContinuations@?$_Task_impl@E@details@Concurrency@@QEAAXE@Z
+	?_Forced_rehash@?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UPieceData@p2p_core@@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UPieceData@p2p_core@@@std@@@2@$0A@@std@@@std@@IEAAX_K@Z
+	?_Forced_rehash@?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VIConnection@p2p_core@@@2@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VIConnection@p2p_core@@@2@@std@@@2@$0A@@std@@@std@@IEAAX_K@Z
+	?_Forced_rehash@?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@UEndpoint@p2p_core@@V?$allocator@UEndpoint@p2p_core@@@std@@@2@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@UEndpoint@p2p_core@@V?$allocator@UEndpoint@p2p_core@@@std@@@2@@std@@@2@$0A@@std@@@std@@IEAAX_K@Z
+	?_Forced_rehash@?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@_KV?$allocator@_K@std@@@2@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@_KV?$allocator@_K@std@@@2@@std@@@2@$0A@@std@@@std@@IEAAX_K@Z
+	?_Forced_rehash@?$_Hash@V?$_Uset_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@$0A@@std@@@std@@IEAAX_K@Z
+	?_Get@?$_Func_impl_no_alloc@V<lambda_052e919cc0e5399df76dff3972c0cac1>@@E$$V@std@@EEBAPEBXXZ
+	?_Get@?$_Func_impl_no_alloc@V<lambda_2fa3e3d11fb97352afa77a4a13bfb543>@@X$$V@std@@EEBAPEBXXZ
+	?_Get@?$_Func_impl_no_alloc@V<lambda_763529b0c7473cbc215a52d189ac9b18>@@X$$V@std@@EEBAPEBXXZ
+	?_Get@?$_Func_impl_no_alloc@V<lambda_f25c37099038263181b5186a3fa41b37>@@X$$V@std@@EEBAPEBXXZ
+	?_Get_bmax@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@AEBAIXZ
+	?_Get_deleter@_Ref_count_base@std@@UEBAPEAXAEBVtype_info@@@Z
+	?_Get_ncap@?$_Matcher@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@DV?$regex_traits@D@2@V12@@std@@AEBAIXZ
+	?_Get_tmax@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@AEBAIXZ
+	?_Get_value@?$_Associated_state@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@UEAAAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N@Z
+	?_Get_value@?$_Task_async_state@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@UEAAAEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N@Z
+	?_Getmark@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@QEBAPEAV_Node_base@2@XZ
+	?_HasUserException@_Task_impl_base@details@Concurrency@@QEAA_NXZ
+	?_Has_deferred_function@?$_Associated_state@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@EEBA_NXZ
+	?_Has_deferred_function@?$_Deferred_async_state@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@EEBA_NXZ
+	?_HexDigits@?$_Parser@PEBDDV?$regex_traits@D@std@@@std@@AEAAXH@Z
+	?_IdentityEscape@?$_Parser@PEBDDV?$regex_traits@D@std@@@std@@AEAA_NXZ
+	?_Insert2@?$_Buf@D@std@@QEAAXD@Z
+	?_Insert_node@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@CAXPEAV_Node_base@2@0@Z
+	?_Insert_x@?$vector@_NV?$allocator@_N@std@@@std@@QEAA_KV?$_Vb_const_iterator@U?$_Wrap_alloc@V?$allocator@I@std@@@std@@@2@_K@Z
+	?_Invoke@_CancellationTokenRegistration@details@Concurrency@@AEAAXXZ
+	?_IsIdentityEscape@?$_Parser@PEBDDV?$regex_traits@D@std@@@std@@AEBA_NXZ
+	?_Is_esc@?$_Parser@PEBDDV?$regex_traits@D@std@@@std@@AEBA_NXZ
+	?_Is_wbound@?$_Matcher@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@DV?$regex_traits@D@2@V12@@std@@AEBA_NXZ
+	?_Link_node@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@AEAAPEAV_Node_base@2@PEAV32@@Z
+	?_Mark_final@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@QEAAXXZ
+	?_Match_pat@?$_Matcher@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@DV?$regex_traits@D@2@V12@@std@@AEAA_NPEAV_Node_base@2@@Z
+	?_Move@?$_Func_impl_no_alloc@V<lambda_052e919cc0e5399df76dff3972c0cac1>@@E$$V@std@@EEAAPEAV?$_Func_base@E$$V@2@PEAX@Z
+	?_Move@?$_Func_impl_no_alloc@V<lambda_2fa3e3d11fb97352afa77a4a13bfb543>@@X$$V@std@@EEAAPEAV?$_Func_base@X$$V@2@PEAX@Z
+	?_Move@?$_Func_impl_no_alloc@V<lambda_763529b0c7473cbc215a52d189ac9b18>@@X$$V@std@@EEAAPEAV?$_Func_base@X$$V@2@PEAX@Z
+	?_Move@?$_Func_impl_no_alloc@V<lambda_f25c37099038263181b5186a3fa41b37>@@X$$V@std@@EEAAPEAV?$_Func_base@X$$V@2@PEAX@Z
+	?_Negate@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@QEAAXXZ
+	?_New_node@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@AEAAPEAV_Node_base@2@W4_Node_type@2@@Z
+	?_Next@?$_Parser@PEBDDV?$regex_traits@D@std@@@std@@AEAAXXZ
+	?_NoCallOnDefaultTask_ErrorImpl@_DefaultTaskHelper@details@Concurrency@@SAXXZ
+	?_OctalDigits@?$_Parser@PEBDDV?$regex_traits@D@std@@@std@@AEAA_NXZ
+	?_Quantifier@?$_Parser@PEBDDV?$regex_traits@D@std@@@std@@AEAAXXZ
+	?_RegisterCallback@_CancellationTokenState@details@Concurrency@@QEAAXPEAV_CancellationTokenRegistration@23@@Z
+	?_RegisterCancellation@_Task_impl_base@details@Concurrency@@QEAAXV?$weak_ptr@U_Task_impl_base@details@Concurrency@@@std@@@Z
+	?_Reset_move@?$_Func_class@XAEBV?$shared_ptr@VIConnection@p2p_core@@@std@@@std@@IEAAX$$QEAV12@@Z
+	?_Reset_move@?$_Func_class@XAEBV?$shared_ptr@VIConnection@p2p_core@@@std@@AEBUFrame@p2p_core@@@std@@IEAAX$$QEAV12@@Z
+	?_Resize@?$match_results@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@V?$allocator@V?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@@2@@std@@QEAAXI@Z
+	?_RethrowUserException@_ExceptionHolder@details@Concurrency@@QEAAXXZ
+	?_RunChoreBridge@_TaskProcHandle@details@Concurrency@@SAXPEAX@Z
+	?_RunTask@_TaskCollectionBaseImpl@details@Concurrency@@SAXP6AXPEAX@Z0W4_TaskInliningMode@23@@Z
+	?_RunTaskContinuations@_Task_impl_base@details@Concurrency@@QEAAXXZ
+	?_Run_deferred_function@?$_Associated_state@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@EEAAXAEAV?$unique_lock@Vmutex@std@@@2@@Z
+	?_Run_deferred_function@?$_Deferred_async_state@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@EEAAXAEAV?$unique_lock@Vmutex@std@@@2@@Z
+	?_ScheduleContinuationTask@_Task_impl_base@details@Concurrency@@QEAAXPEAU_ContinuationTaskHandleBase@23@@Z
+	?_ScheduleTask@_Task_impl_base@details@Concurrency@@QEAAXPEAU_TaskProcHandle@23@W4_TaskInliningMode@23@@Z
+	?_Set_exception@?$_Associated_state@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QEAAXVexception_ptr@2@_N@Z
+	?_Set_value@?$_Associated_state@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QEAAX$$QEAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@_N@Z
+	?_Setlong@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@QEAAXXZ
+	?_Target_type@?$_Func_impl_no_alloc@V<lambda_052e919cc0e5399df76dff3972c0cac1>@@E$$V@std@@EEBAAEBVtype_info@@XZ
+	?_Target_type@?$_Func_impl_no_alloc@V<lambda_2fa3e3d11fb97352afa77a4a13bfb543>@@X$$V@std@@EEBAAEBVtype_info@@XZ
+	?_Target_type@?$_Func_impl_no_alloc@V<lambda_763529b0c7473cbc215a52d189ac9b18>@@X$$V@std@@EEBAAEBVtype_info@@XZ
+	?_Target_type@?$_Func_impl_no_alloc@V<lambda_f25c37099038263181b5186a3fa41b37>@@X$$V@std@@EEBAAEBVtype_info@@XZ
+	?_Throw_bad_array_new_length@std@@YAXXZ
+	?_Throw_bad_cast@std@@YAXXZ
+	?_Throw_bad_weak_ptr@std@@YAXXZ
+	?_Throw_future_error2@std@@YAXW4future_errc@1@@Z
+	?_Throw_system_error@std@@YAXW4errc@1@@Z
+	?_Tidy@?$_Builder@PEBDDV?$regex_traits@D@std@@@std@@QEAAXXZ
+	?_Tidy@?$basic_regex@DV?$regex_traits@D@std@@@std@@AEAAXXZ
+	?_Tidy@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@IEAAXXZ
+	?_Tidy@?$vector@IV?$allocator@I@std@@@std@@AEAAXXZ
+	?_Tidy@?$vector@PEAXV?$allocator@PEAX@std@@@std@@AEAAXXZ
+	?_Tidy@?$vector@UEndpoint@p2p_core@@V?$allocator@UEndpoint@p2p_core@@@std@@@std@@AEAAXXZ
+	?_Tidy@?$vector@U_Grp_t@?$_Tgt_state_t@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@V?$allocator@U_Grp_t@?$_Tgt_state_t@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@@3@@std@@AEAAXXZ
+	?_Tidy_deallocate@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEAAXXZ
+	?_Trans@?$_Parser@PEBDDV?$regex_traits@D@std@@@std@@AEAAXXZ
+	?_Trim@?$vector@_NV?$allocator@_N@std@@@std@@QEAAX_K@Z
+	?_Wait@?$_Associated_state@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@UEAAXXZ
+	?_Wait@?$_Task_async_state@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@UEAAXXZ
+	?_Wait@_TaskCollectionBaseImpl@details@Concurrency@@QEAAXXZ
+	?_Wait@_Task_impl_base@details@Concurrency@@QEAA?AW4task_group_status@3@XZ
+	?_Wrapped_disjunction@?$_Parser@PEBDDV?$regex_traits@D@std@@@std@@AEAA_NXZ
+	?_Xlen@?$vector@_NV?$allocator@_N@std@@@std@@SAXXZ
+	?_Xlen_string@std@@YAXXZ
+	?_Xlength@?$vector@DV?$allocator@D@std@@@std@@CAXXZ
+	?_Xlength@?$vector@EV?$allocator@E@std@@@std@@CAXXZ
+	?_Xlength@?$vector@IV?$allocator@I@std@@@std@@CAXXZ
+	?_Xlength@?$vector@PEAXV?$allocator@PEAX@std@@@std@@CAXXZ
+	?_Xlength@?$vector@UDhtNodeInfo@p2p_core@@V?$allocator@UDhtNodeInfo@p2p_core@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@UEndpoint@p2p_core@@V?$allocator@UEndpoint@p2p_core@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@UIceCandidate@p2p_core@@V?$allocator@UIceCandidate@p2p_core@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@U_Grp_t@?$_Tgt_state_t@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@V?$allocator@U_Grp_t@?$_Tgt_state_t@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@@3@@std@@CAXXZ
+	?_Xlength@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@CAXXZ
+	?_Xlength@?$vector@V?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@V?$allocator@V?$sub_match@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@@2@@std@@CAXXZ
+	?_Xlength@?$vector@VKBucket@p2p_core@@V?$allocator@VKBucket@p2p_core@@@std@@@std@@CAXXZ
+	?_Xlength@?$vector@_KV?$allocator@_K@std@@@std@@CAXXZ
+	?_Xran@?$_String_val@U?$_Simple_types@D@std@@@std@@SAXXZ
+	?accept_loop@TcpTransport@p2p_core@@AEAAXXZ
+	?add_bootstrap@KademliaDht@p2p_core@@QEAAXAEBUEndpoint@2@@Z
+	?add_bootstrap@SimpleDhtNode@p2p_core@@QEAAXAEBUEndpoint@2@@Z
+	?add_seed_peer@PeerEngine@p2p_core@@QEAAXAEBUEndpoint@2@@Z
+	?allocate@TurnClient@p2p_core@@QEAA?AV?$optional@UTurnAllocation@p2p_core@@@std@@H@Z
+	?announce@TrackerClient@p2p_core@@QEBA?AV?$vector@UEndpoint@p2p_core@@V?$allocator@UEndpoint@p2p_core@@@std@@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@0GH0@Z
+	?announce_stream@SimpleDhtNode@p2p_core@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBUEndpoint@2@@Z
+	?announce_to_trackers@PeerEngine@p2p_core@@AEAAXXZ
+	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@QEBD_K@Z
+	?append@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@_KD@Z
+	?assign@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAAEAV12@QEBD_K@Z
+	?available_piece_indices@InMemorySegmentStore@p2p_core@@QEBA?AV?$vector@_KV?$allocator@_K@std@@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@@Z
+	?available_tokens@TokenBucketLimiter@p2p_core@@QEBANXZ
+	?bound_port@TcpTransport@p2p_core@@UEAAGXZ
+	?cleanup_expired@InMemorySegmentStore@p2p_core@@QEAAXAEBV?$duration@_JU?$ratio@$00$00@std@@@chrono@std@@@Z
+	?close@TcpConnection@p2p_core@@UEAAXXZ
+	?connect@TcpTransport@p2p_core@@UEAA?AV?$shared_ptr@VIConnection@p2p_core@@@std@@AEBUEndpoint@2@H@Z
+	?connect_seed_peers@PeerEngine@p2p_core@@AEAAXXZ
+	?connectivity_check@MinimalIce@p2p_core@@QEAA?AV?$optional@UIcePair@p2p_core@@@std@@AEBV?$vector@UIceCandidate@p2p_core@@V?$allocator@UIceCandidate@p2p_core@@@std@@@4@0H@Z
+	?consume@TokenBucketLimiter@p2p_core@@QEAA_K_K@Z
+	?current_exception@std@@YA?AVexception_ptr@1@XZ
+	?deallocate@?$allocator@D@std@@QEAAXQEAD_K@Z
+	?deallocate@?$allocator@I@std@@QEAAXQEAI_K@Z
+	?deallocate@?$allocator@PEAX@std@@QEAAXQEAPEAX_K@Z
+	?deallocate@?$allocator@U_Grp_t@?$_Tgt_state_t@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@std@@@std@@QEAAXQEAU_Grp_t@?$_Tgt_state_t@V?$_String_const_iterator@V?$_String_val@U?$_Simple_types@D@std@@@std@@@std@@@2@_K@Z
+	?deallocate@?$allocator@V?$_List_unchecked_const_iterator@V?$_List_val@U?$_List_simple_types@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@U_Iterator_base0@2@@std@@@std@@QEAAXQEAV?$_List_unchecked_const_iterator@V?$_List_val@U?$_List_simple_types@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@U_Iterator_base0@2@@2@_K@Z
+	?deallocate@?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UPieceData@p2p_core@@@std@@@std@@@std@@@std@@@std@@QEAAXQEAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@UPieceData@p2p_core@@@std@@@std@@@std@@@2@_K@Z
+	?deallocate@?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VIConnection@p2p_core@@@2@@std@@@std@@@std@@@std@@@std@@QEAAXQEAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$shared_ptr@VIConnection@p2p_core@@@2@@std@@@std@@@std@@@2@_K@Z
+	?deallocate@?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@UEndpoint@p2p_core@@V?$allocator@UEndpoint@p2p_core@@@std@@@2@@std@@@std@@@std@@@std@@@std@@QEAAXQEAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@UEndpoint@p2p_core@@V?$allocator@UEndpoint@p2p_core@@@std@@@2@@std@@@std@@@std@@@2@_K@Z
+	?deallocate@?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@_KV?$allocator@_K@std@@@2@@std@@@std@@@std@@@std@@@std@@QEAAXQEAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$vector@_KV?$allocator@_K@std@@@2@@std@@@std@@@std@@@2@_K@Z
+	?default_error_condition@error_category@std@@UEBA?AVerror_condition@2@H@Z
+	?default_resolve@DnsResolver@p2p_core@@AEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV34@@Z
+	?discover_mapped_address@StunClient@p2p_core@@QEBA?AV?$optional@UEndpoint@p2p_core@@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@H@Z
+	?do_compare@?$collate@D@std@@MEBAHPEBD000@Z
+	?do_hash@?$collate@D@std@@MEBAJPEBD0@Z
+	?do_transform@?$collate@D@std@@MEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@PEBD0@Z
+	?ecdsa_p256_sign_der_hex@p2p_core@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@AEBV?$vector@EV?$allocator@E@std@@@3@@Z
+	?ecdsa_p256_verify_der_hex@p2p_core@@YA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV?$vector@EV?$allocator@E@std@@@3@0@Z
+	?encode_frame@p2p_core@@YA?AV?$vector@EV?$allocator@E@std@@@std@@AEBUFrame@1@@Z
+	?equivalent@error_category@std@@UEBA_NAEBVerror_code@2@H@Z
+	?equivalent@error_category@std@@UEBA_NHAEBVerror_condition@2@@Z
+	?erase@?$vector@_NV?$allocator@_N@std@@@std@@QEAA?AV?$_Vb_iterator@U?$_Wrap_alloc@V?$allocator@I@std@@@std@@@2@V?$_Vb_const_iterator@U?$_Wrap_alloc@V?$allocator@I@std@@@std@@@2@0@Z
+	?find_value@KademliaDht@p2p_core@@QEAA?AV?$vector@UEndpoint@p2p_core@@V?$allocator@UEndpoint@p2p_core@@@std@@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@H@Z
+	?from_json@MinimalIce@p2p_core@@SA?AV?$vector@UIceCandidate@p2p_core@@V?$allocator@UIceCandidate@p2p_core@@@std@@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@@Z
+	?gather_candidates@MinimalIce@p2p_core@@QEAA?AV?$vector@UIceCandidate@p2p_core@@V?$allocator@UIceCandidate@p2p_core@@@std@@@std@@XZ
+	?get@InMemorySegmentStore@p2p_core@@QEBA?AV?$optional@UPieceData@p2p_core@@@std@@AEBUPieceId@2@@Z
+	?get_ambient_scheduler@Concurrency@@YAAEBV?$shared_ptr@Uscheduler_interface@Concurrency@@@std@@XZ
+	?get_candidates@TrackerClient@p2p_core@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV34@0H0@Z
+	?get_stream_peers@SimpleDhtNode@p2p_core@@QEAA?AV?$vector@UEndpoint@p2p_core@@V?$allocator@UEndpoint@p2p_core@@@std@@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@H@Z
+	?has@InMemorySegmentStore@p2p_core@@QEBA_NAEBUPieceId@2@@Z
+	?hex@std@@YAAEAVios_base@1@AEAV21@@Z
+	?hmac_sha256_bytes@p2p_core@@YA?AV?$vector@EV?$allocator@E@std@@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@PEBE_K@Z
+	?hmac_sha256_hex@p2p_core@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@0@Z
+	?hmac_sha256_hex@p2p_core@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV23@PEBE_K@Z
+	?io_loop@SimpleDhtNode@p2p_core@@AEAAXXZ
+	?io_thread_main@PeerEngine@p2p_core@@AEAAXXZ
+	?is_valid_ip@DnsResolver@p2p_core@@SA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+	?listen@TcpTransport@p2p_core@@UEAA_NG@Z
+	?log_message@p2p_core@@YAXW4LogLevel@1@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+	?make_error_code@std@@YA?AVerror_code@1@W4errc@1@@Z
+	?make_key@InMemorySegmentStore@p2p_core@@AEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBUPieceId@2@@Z
+	?make_key@PeerEngine@p2p_core@@AEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBUPieceId@2@@Z
+	?make_quic_transport@p2p_core@@YA?AV?$unique_ptr@VITcpTransport@p2p_core@@U?$default_delete@VITcpTransport@p2p_core@@@std@@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@@Z
+	?make_tcp_transport@p2p_core@@YA?AV?$unique_ptr@VITcpTransport@p2p_core@@U?$default_delete@VITcpTransport@p2p_core@@@std@@@std@@XZ
+	?make_tls_transport@p2p_core@@YA?AV?$unique_ptr@VITcpTransport@p2p_core@@U?$default_delete@VITcpTransport@p2p_core@@@std@@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@3@0@Z
+	?message@_Future_error_category2@std@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@H@Z
+	?message@_Generic_error_category@std@@UEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@H@Z
+	?name@_Future_error_category2@std@@UEBAPEBDXZ
+	?name@_Generic_error_category@std@@UEBAPEBDXZ
+	?name@locale@std@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ
+	?nodes@KBucket@p2p_core@@QEBA?AV?$vector@UDhtNodeInfo@p2p_core@@V?$allocator@UDhtNodeInfo@p2p_core@@@std@@@std@@XZ
+	?now@steady_clock@chrono@std@@SA?AV?$time_point@Usteady_clock@chrono@std@@V?$duration@_JU?$ratio@$00$0DLJKMKAA@@std@@@23@@23@XZ
+	?on_close@PeerEngine@p2p_core@@AEAAXAEBV?$shared_ptr@VIConnection@p2p_core@@@std@@@Z
+	?on_connection@PeerEngine@p2p_core@@AEAAXAEBV?$shared_ptr@VIConnection@p2p_core@@@std@@@Z
+	?on_frame@PeerEngine@p2p_core@@AEAAXAEBV?$shared_ptr@VIConnection@p2p_core@@@std@@AEBUFrame@2@@Z
+	?overflow@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHH@Z
+	?pbackfail@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHH@Z
+	?post_candidates@TrackerClient@p2p_core@@QEBA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00H0@Z
+	?publish_piece@PeerEngine@p2p_core@@QEAAXAEBUPieceData@2@@Z
+	?push_back@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEAAXD@Z
+	?push_back@?$vector@EV?$allocator@E@std@@@std@@QEAAX$$QEAE@Z
+	?put@InMemorySegmentStore@p2p_core@@QEAAXAEBUPieceData@2@@Z
+	?reader_loop@TcpConnection@p2p_core@@AEAAXXZ
+	?refill_tokens@TokenBucketLimiter@p2p_core@@AEAAXXZ
+	?refresh@KademliaDht@p2p_core@@QEAAXXZ
+	?refresh@TurnClient@p2p_core@@QEAA_NAEBUTurnAllocation@2@@Z
+	?remote_endpoint@TcpConnection@p2p_core@@UEBA?AUEndpoint@2@XZ
+	?request_piece@PeerEngine@p2p_core@@QEAAXAEBUPieceId@2@@Z
+	?reset@TokenBucketLimiter@p2p_core@@QEAAXXZ
+	?resize@?$vector@_NV?$allocator@_N@std@@@std@@QEAAX_K_N@Z
+	?resolve@DnsResolver@p2p_core@@QEAA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV34@@Z
+	?resolve_async@DnsResolver@p2p_core@@QEAA?AV?$future@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@4@@Z
+	?rethrow_exception@std@@YAXVexception_ptr@1@@Z
+	?schedule@_DefaultPPLTaskScheduler@details@Concurrency@@UEAAXP6AXPEAX@Z0@Z
+	?seekoff@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@_JHH@Z
+	?seekpos@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAA?AV?$fpos@U_Mbstatet@@@2@V32@H@Z
+	?send@TcpConnection@p2p_core@@UEAA_NAEBV?$vector@EV?$allocator@E@std@@@std@@@Z
+	?send_announce@PeerEngine@p2p_core@@AEAAXAEBV?$shared_ptr@VIConnection@p2p_core@@@std@@@Z
+	?send_announce@SimpleDhtNode@p2p_core@@AEAAXAEBUEndpoint@2@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z
+	?send_find@SimpleDhtNode@p2p_core@@AEAAXAEBUEndpoint@2@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z
+	?send_piece@PeerEngine@p2p_core@@AEAAXAEBV?$shared_ptr@VIConnection@p2p_core@@@std@@AEBUPieceData@2@@Z
+	?send_request@PeerEngine@p2p_core@@AEAAXAEBV?$shared_ptr@VIConnection@p2p_core@@@std@@AEBUPieceId@2@@Z
+	?set_custom_resolver@DnsResolver@p2p_core@@QEAAXV?$function@$$A6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@@Z@std@@@Z
+	?set_custom_resolver@PeerEngine@p2p_core@@QEAAXV?$function@$$A6A?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV12@@Z@std@@@Z
+	?set_global_logger@p2p_core@@YAXV?$function@$$A6AXW4LogLevel@p2p_core@@AEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z@std@@@Z
+	?set_handlers@TcpTransport@p2p_core@@UEAAXV?$function@$$A6AXAEBV?$shared_ptr@VIConnection@p2p_core@@@std@@@Z@std@@V?$function@$$A6AXAEBV?$shared_ptr@VIConnection@p2p_core@@@std@@AEBUFrame@p2p_core@@@Z@4@0@Z
+	?set_piece_received_callback@PeerEngine@p2p_core@@QEAAXV?$function@$$A6AXAEBUPieceData@p2p_core@@@Z@std@@@Z
+	?sha256_bytes@p2p_core@@YA?AV?$vector@EV?$allocator@E@std@@@std@@AEBV23@@Z
+	?sha256_bytes@p2p_core@@YA?AV?$vector@EV?$allocator@E@std@@@std@@PEBE_K@Z
+	?sha256_hex@p2p_core@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV?$vector@EV?$allocator@E@std@@@3@@Z
+	?sha256_hex@p2p_core@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PEBE_K@Z
+	?start@PeerEngine@p2p_core@@QEAA_NXZ
+	?start@SimpleDhtNode@p2p_core@@QEAA_NG@Z
+	?start@TcpConnection@p2p_core@@QEAAXXZ
+	?stats@PeerEngine@p2p_core@@QEBA?AUStatsSnapshot@2@XZ
+	?stoi@std@@YAHAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@PEA_KH@Z
+	?stop@PeerEngine@p2p_core@@QEAAXXZ
+	?stop@SimpleDhtNode@p2p_core@@QEAAXXZ
+	?stop@TcpTransport@p2p_core@@UEAAXXZ
+	?store@KademliaDht@p2p_core@@QEAAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBUEndpoint@2@H@Z
+	?stoull@std@@YA_KAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@PEA_KH@Z
+	?str@?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QEBA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ
+	?to_json@MinimalIce@p2p_core@@SA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV?$vector@UIceCandidate@p2p_core@@V?$allocator@UIceCandidate@p2p_core@@@std@@@4@@Z
+	?to_string@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@H@Z
+	?total_bytes@InMemorySegmentStore@p2p_core@@QEBA_KXZ
+	?total_pieces@InMemorySegmentStore@p2p_core@@QEBA_KXZ
+	?touch@KBucket@p2p_core@@QEAAXAEBUDhtNodeInfo@2@@Z
+	?try_decode_frame@p2p_core@@YA_NAEAV?$vector@EV?$allocator@E@std@@@std@@AEAUFrame@1@@Z
+	?underflow@?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@MEAAHXZ
+	?what@bad_weak_ptr@std@@UEBAPEBDXZ
+	?what@exception@std@@UEBAPEBDXZ
+	?what@future_error@std@@UEBAPEBDXZ
+	__local_stdio_printf_options
+	p2p_add_seed
+	p2p_create
+	p2p_destroy
+	p2p_publish_piece
+	p2p_request_piece
+	p2p_set_piece_received_callback
+	p2p_start
+	p2p_stats
+	p2p_stop
+	snprintf

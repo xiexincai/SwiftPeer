@@ -1,0 +1,43 @@
+# 构建输出
+build/
+install/
+external/
+
+# IDE文件
+.vs/
+.vscode/
+*.swp
+*.swo
+
+# 编译输出
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# 临时文件
+*.tmp
+*.temp
+*.log
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 依赖文件
+vcpkg_installed/
+conan/
+
+# 测试输出
+tests/output/
+*.gcov
+*.gcda
+*.gcno
+
+# 性能分析
+*.prof
+*.perf
