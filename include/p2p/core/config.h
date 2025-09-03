@@ -10,48 +10,48 @@
 namespace p2p_core {
 
 struct P2PConfig {
-  // Identity and networking
-  std::string nodeId;                  // stable ID; if empty auto-generate
-  std::uint16_t listenPort{0};         // 0 -> auto
-  std::vector<Endpoint> seedPeers;     // bootstrap peers
+  // 身份和网络配置
+  std::string nodeId;                  // 稳定ID；如果为空则自动生成
+  std::uint16_t listenPort{0};         // 0 -> 自动选择
+  std::vector<Endpoint> seedPeers;     // 引导节点
 
-  // Discovery
-  std::vector<std::string> trackerUrls; // optional HTTP trackers
-  std::vector<std::string> stunServers; // e.g., "stun.l.google.com:19302"
-  std::string trackerSharedSecret;      // optional HMAC-SHA256 signer for tracker requests
+  // 节点发现
+  std::vector<std::string> trackerUrls; // 可选的HTTP跟踪器
+  std::vector<std::string> stunServers; // 例如："stun.l.google.com:19302"
+  std::string trackerSharedSecret;      // 可选的HMAC-SHA256签名密钥
 
-  // Rate limits (bytes/sec)
-  double maxUploadBps{0};   // 0 -> unlimited
-  double maxDownloadBps{0}; // 0 -> unlimited
+  // 速率限制（字节/秒）
+  double maxUploadBps{0};   // 0 -> 无限制
+  double maxDownloadBps{0}; // 0 -> 无限制
   double maxBurstBytes{65536};
 
-  // Limits
+  // 限制
   std::uint32_t maxPeers{50};
 
   // DNS
-  // If true and custom resolver is unset, use system resolver (getaddrinfo)
+  // 如果为true且未设置自定义解析器，则使用系统解析器（getaddrinfo）
   bool useSystemDns{true};
 
-  // Security / transport
+  // 安全/传输
   bool enableTls{true};                 // TLS over TCP
-  bool enableQuic{false};               // QUIC (if supported)
-  std::string certPemPath;              // optional; if empty auto-generate self-signed
-  std::string keyPemPath;               // optional; if empty auto-generate
+  bool enableQuic{false};               // QUIC（如果支持）
+  std::string certPemPath;              // 可选；如果为空则自动生成自签名证书
+  std::string keyPemPath;               // 可选；如果为空则自动生成
 
-  // Content addressing / signing
-  bool enableContentAddressing{false};   // if true, pieceId is sha256(data)
-  bool enablePublisherSignature{false};  // if true, include ECDSA signature
-  std::string publisherPrivKeyPemPath;   // for signing (PEM)
-  std::string publisherPubKeyPem;        // for verification (PEM)
+  // 内容寻址/签名
+  bool enableContentAddressing{false};   // 如果为true，pieceId为sha256(data)
+  bool enablePublisherSignature{false};  // 如果为true，包含ECDSA签名
+  std::string publisherPrivKeyPemPath;   // 用于签名（PEM格式）
+  std::string publisherPubKeyPem;        // 用于验证（PEM格式）
 
   // DHT
   bool enableDht{true};
-  std::uint16_t dhtPort{0};             // UDP port for DHT (0 -> auto)
-  std::vector<Endpoint> dhtBootstraps;  // initial known DHT nodes
+  std::uint16_t dhtPort{0};             // DHT的UDP端口（0 -> 自动选择）
+  std::vector<Endpoint> dhtBootstraps;  // 初始已知DHT节点
 
   // ICE/TURN
   bool enableIce{false};
-  std::string turnUrl;                  // e.g., turn:turn.example.com:3478?transport=udp
+  std::string turnUrl;                  // 例如：turn:turn.example.com:3478?transport=udp
   std::string turnUsername;
   std::string turnPassword;
   int iceCheckTimeoutMs{1500};

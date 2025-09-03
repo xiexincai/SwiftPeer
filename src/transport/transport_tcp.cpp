@@ -192,7 +192,7 @@ std::unique_ptr<ITcpTransport> make_tcp_transport() {
   return std::make_unique<TcpTransport>();
 }
 
-// 这些函数已经在其他文件中定义，这里移除重复定义
+// These functions are already defined in other files, removing duplicate definitions here
 
 } // namespace p2p_core
 

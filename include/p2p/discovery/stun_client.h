@@ -6,10 +6,10 @@
 
 namespace p2p_core {
 
-// RFC 5389 minimal STUN Binding discovery
+// RFC 5389最小STUN绑定发现
 class StunClient {
 public:
-  // server in form host:port, default port 3478 if no port provided
+  // 服务器格式为host:port，如果未提供端口则默认为3478
   std::optional<Endpoint> discover_mapped_address(const std::string& server, int timeoutMs = 1500) const;
 };
 

@@ -22,12 +22,12 @@ typedef struct p2p_endpoint_t {
 } p2p_endpoint_t;
 
 typedef struct p2p_config_t {
-  const char* node_id; // nullable
-  uint16_t listen_port; // 0 -> auto
-  double max_upload_bps; // 0 -> unlimited
-  double max_download_bps; // 0 -> unlimited
-  double max_burst_bytes; // default 65536
-  uint32_t max_peers; // default 50
+  const char* node_id; // 可为空
+  uint16_t listen_port; // 0 -> 自动选择
+  double max_upload_bps; // 0 -> 无限制
+  double max_download_bps; // 0 -> 无限制
+  double max_burst_bytes; // 默认65536
+  uint32_t max_peers; // 默认50
 } p2p_config_t;
 
 typedef struct p2p_piece_id_t {

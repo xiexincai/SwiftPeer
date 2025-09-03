@@ -12,22 +12,22 @@ using Byte = std::uint8_t;
 using Bytes = std::vector<Byte>;
 
 struct Endpoint {
-  std::string host; // IP or hostname
+  std::string host; // IP地址或主机名
   std::uint16_t port{0};
 };
 
 struct PieceId {
-  // Backward compatibility fields (optional)
-  std::string streamId; // logical stream identifier (optional in content addressing)
+  // 向后兼容字段（可选）
+  std::string streamId; // 逻辑流标识符（在内容寻址中可选）
   std::uint64_t pieceIndex{0};
-  // Content addressing: authoritative ID is sha256(data) in hex
-  std::string hashHex; // when present, used as key and transmitted over the wire
+  // 内容寻址：权威ID是sha256(data)的十六进制表示
+  std::string hashHex; // 存在时用作密钥并在网络上传输
 };
 
 struct PieceData {
   PieceId id;
   Bytes data;
-  // integrity via SHA-256: hex optional; if empty, computed on send
+  // 通过SHA-256保证完整性：十六进制可选；如果为空则在发送时计算
   std::string sha256Hex;
 };
 

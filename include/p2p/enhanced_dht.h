@@ -17,42 +17,42 @@ class TopologyOptimizer;
 class NetworkPartitionDetector;
 
 /**
- * DHT节点信息 - 增强�?
+ * DHT节点信息 - 增强版
  */
 struct DHTNode {
-    std::string node_id;                   // 节点ID�?60位）
+    std::string node_id;                   // 节点ID（160位）
     std::string address;                    // IP地址
     uint16_t port;                         // 端口
     uint16_t dht_port;                     // DHT专用端口
     
     // 网络质量指标
     double latency_ms;                     // 延迟（毫秒）
-    double bandwidth_mbps;                 // 带宽（Mbps�?
-    double packet_loss_rate;               // 丢包�?
+    double bandwidth_mbps;                 // 带宽（Mbps）
+    double packet_loss_rate;               // 丢包率
     double jitter_ms;                      // 抖动
     
     // 地理位置信息
     double latitude;                       // 纬度
     double longitude;                      // 经度
     std::string country_code;              // 国家代码
-    std::string isp;                       // 网络服务�?
+    std::string isp;                       // 网络服务商
     
-    // 节点状�?
+    // 节点状态
     bool is_online;                        // 是否在线
     bool is_stable;                        // 是否稳定
     uint32_t uptime_seconds;               // 在线时长
-    uint32_t last_seen_seconds;            // 最后活跃时�?
+    uint32_t last_seen_seconds;            // 最后活跃时间
     
     // 性能指标
     uint32_t successful_queries;           // 成功查询次数
     uint32_t failed_queries;               // 失败查询次数
     uint32_t response_time_avg_ms;         // 平均响应时间
-    uint32_t last_query_time;              // 最后查询时�?
+    uint32_t last_query_time;              // 最后查询时间
     
     // 网络拓扑信息
     uint32_t network_id;                   // 网络ID
     uint32_t subnet_mask;                  // 子网掩码
-    std::string network_type;              // 网络类型（家�?企业/移动�?
+    std::string network_type;              // 网络类型（家庭/企业/移动）
     
     DHTNode();
     double get_quality_score() const;
@@ -63,18 +63,18 @@ struct DHTNode {
 };
 
 /**
- * DHT路由表桶 - 优化�?
+ * DHT路由表桶 - 优化版
  */
 struct DHTBucket {
     std::vector<DHTNode> nodes;            // 节点列表
     std::vector<DHTNode> replacement_cache; // 替换缓存
-    uint32_t last_updated;                 // 最后更新时�?
+    uint32_t last_updated;                 // 最后更新时间
     uint32_t query_count;                  // 查询次数
     uint32_t success_count;                // 成功次数
     
-    // 桶状�?
+    // 桶状态
     bool is_stale;                         // 是否过期
-    bool needs_refresh;                    // 是否需要刷�?
+    bool needs_refresh;                    // 是否需要刷新
     uint32_t refresh_interval;             // 刷新间隔
     
     DHTBucket();
@@ -91,8 +91,8 @@ struct DHTBucket {
  */
 struct DHTQueryResult {
     bool success;                          // 是否成功
-    std::vector<DHTNode> nodes;           // 找到的节�?
-    std::vector<std::string> values;      // 找到的�?
+    std::vector<DHTNode> nodes;           // 找到的节点
+    std::vector<std::string> values;      // 找到的值
     double query_time_ms;                 // 查询耗时
     uint32_t hops;                        // 跳数
     std::string error_message;            // 错误信息
@@ -105,9 +105,9 @@ struct DHTQueryResult {
  */
 struct NetworkPartition {
     uint32_t partition_id;                 // 分区ID
-    std::vector<DHTNode> nodes;           // 分区内节�?
+    std::vector<DHTNode> nodes;           // 分区内节点
     std::vector<std::string> gateways;    // 网关节点
-    double connectivity_score;             // 连通性评�?
+    double connectivity_score;             // 连通性评分
     bool is_stable;                        // 是否稳定
     std::chrono::steady_clock::time_point created_time;
     
@@ -118,30 +118,30 @@ struct NetworkPartition {
 };
 
 /**
- * DHT配置 - 增强�?
+ * DHT配置 - 增强版
  */
 struct DHTConfig {
     // 基本配置
     uint16_t port;                         // DHT端口
     uint16_t bootstrap_port;               // 引导端口
     uint32_t max_nodes_per_bucket;        // 每桶最大节点数
-    uint32_t max_buckets;                 // 最大桶�?
+    uint32_t max_buckets;                 // 最大桶数
     
     // 网络优化配置
     bool enable_topology_optimization;     // 启用拓扑优化
     bool enable_geographic_clustering;     // 启用地理聚类
     bool enable_network_awareness;         // 启用网络感知
-    bool enable_partition_detection;       // 启用分区检�?
+    bool enable_partition_detection;       // 启用分区检测
     
     // 性能配置
     uint32_t query_timeout_ms;             // 查询超时时间
     uint32_t refresh_interval_ms;          // 刷新间隔
-    uint32_t max_query_hops;               // 最大查询跳�?
+    uint32_t max_query_hops;               // 最大查询跳数
     uint32_t parallel_query_count;         // 并行查询数量
     
-    // 质量阈�?
-    double min_node_quality_score;         // 最小节点质量评�?
-    double max_node_latency_ms;            // 最大节点延�?
+    // 质量阈值
+    double min_node_quality_score;         // 最小节点质量评分
+    double max_node_latency_ms;            // 最大节点延迟
     double max_node_packet_loss_rate;      // 最大节点丢包率
     
     // 高级配置
@@ -153,7 +153,7 @@ struct DHTConfig {
 };
 
 /**
- * 增强的DHT实现 - 基于最新学术研�?
+ * 增强的DHT实现 - 基于最新学术研究
  */
 class P2P_API EnhancedDHT {
 public:
@@ -214,7 +214,7 @@ private:
 };
 
 /**
- * 拓扑优化�?
+ * 拓扑优化器
  */
 class P2P_API TopologyOptimizer {
 public:
@@ -254,7 +254,7 @@ public:
     explicit NetworkPartitionDetector(const DHTConfig& config);
     ~NetworkPartitionDetector();
     
-    // 分区检�?
+    // 分区检测
     std::vector<NetworkPartition> detect_partitions(const std::vector<DHTNode>& nodes);
     bool is_partitioned(const std::vector<DHTNode>& nodes) const;
     uint32_t get_partition_count(const std::vector<DHTNode>& nodes) const;
@@ -281,7 +281,7 @@ private:
 };
 
 /**
- * 自适应路由优化�?
+ * 自适应路由优化器
  */
 class P2P_API AdaptiveRoutingOptimizer {
 public:

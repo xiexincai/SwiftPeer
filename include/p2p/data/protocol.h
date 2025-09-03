@@ -20,16 +20,16 @@ struct Frame {
   std::vector<Byte> payload;
 };
 
-// Encode: 4-byte big-endian length (1 + payload), 1-byte type, payload
+// 编码：4字节大端长度（1 + 负载），1字节类型，负载
 std::vector<Byte> encode_frame(const Frame& f);
-// Returns empty optional if incomplete
+// 如果不完整则返回空可选
 bool try_decode_frame(std::vector<Byte>& buffer, Frame& out);
 
-// Piece payload format (text header + binary body):
-// If content addressing enabled:
-//   hashHex \n [optional: ecdsa_der_sig_hex]\n raw-bytes
-// Else:
-//   streamId \n pieceIndex \n sha256hex \n [optional: ecdsa_der_sig_hex]\n raw-bytes
+// 数据块负载格式（文本头部 + 二进制主体）：
+// 如果启用内容寻址：
+//   hashHex \n [可选：ecdsa_der_sig_hex]\n raw-bytes
+// 否则：
+//   streamId \n pieceIndex \n sha256hex \n [可选：ecdsa_der_sig_hex]\n raw-bytes
 
 } // namespace p2p_core
 

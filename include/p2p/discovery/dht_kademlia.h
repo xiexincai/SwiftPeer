@@ -15,7 +15,7 @@
 
 namespace p2p_core {
 
-using NodeId = std::array<std::uint8_t, 20>; // 160-bit
+using NodeId = std::array<std::uint8_t, 20>; // 160位
 
 struct DhtNodeInfo {
   NodeId id;

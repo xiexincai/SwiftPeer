@@ -24,18 +24,18 @@ struct IcePair {
   IceCandidate remote;
 };
 
-// Minimal ICE: gather host and STUN reflexive candidates; perform basic connectivity checks.
+// 最小ICE：收集主机和STUN反射候选；执行基本连通性检查。
 class MinimalIce {
 public:
   explicit MinimalIce(const P2PConfig& cfg);
 
   std::vector<IceCandidate> gather_candidates();
-  // Returns selected pair if connectivity check succeeds
+  // 如果连通性检查成功则返回选定的对
   std::optional<IcePair> connectivity_check(const std::vector<IceCandidate>& local,
                                             const std::vector<IceCandidate>& remote,
                                             int timeoutMs = 1000);
 
-  // Serialize candidates to JSON string
+  // 将候选序列化为JSON字符串
   static std::string to_json(const std::vector<IceCandidate>& cands);
   static std::vector<IceCandidate> from_json(const std::string& json);
 
@@ -43,7 +43,7 @@ private:
   P2PConfig cfg_;
 };
 
-// TURN relay minimal hooks (placeholder for full RFC5766):
+// TURN中继最小钩子（完整RFC5766的占位符）：
 struct TurnAllocation {
   std::string relayedIp;
   std::uint16_t relayedPort{0};
@@ -54,7 +54,7 @@ struct TurnAllocation {
 class TurnClient {
 public:
   explicit TurnClient(const P2PConfig& cfg);
-  // Allocate a relay address; returns allocation info on success
+  // 分配中继地址；成功时返回分配信息
   std::optional<TurnAllocation> allocate(int timeoutMs = 1500);
   bool refresh(const TurnAllocation& alloc);
 private:

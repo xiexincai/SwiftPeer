@@ -15,7 +15,7 @@ class NATTraversalEngine;
 class ConnectionQualityMonitor;
 
 /**
- * NAT类型枚举 - 基于RFC 3489和最新研�?
+ * NAT类型枚举 - 基于RFC 3489和最新研究
  */
 enum class NATType {
     UNKNOWN = 0,           // 未知类型
@@ -24,7 +24,7 @@ enum class NATType {
     RESTRICTED_CONE = 3,   // 受限锥型NAT
     PORT_RESTRICTED_CONE = 4, // 端口受限锥型NAT
     SYMMETRIC = 5,         // 对称型NAT
-    UDP_BLOCKED = 6        // UDP被阻�?
+    UDP_BLOCKED = 6        // UDP被阻塞
 };
 
 /**
@@ -43,22 +43,22 @@ enum class CandidateType {
 struct CandidateAddress {
     std::string address;           // IP地址
     uint16_t port;                 // 端口
-    CandidateType type;            // 候选类�?
+    CandidateType type;            // 候选类型
     NATType nat_type;              // 对应的NAT类型
-    uint32_t priority;             // 优先级（0-65535�?
-    std::string foundation;        // 基础标识�?
+    uint32_t priority;             // 优先级（0-65535）
+    std::string foundation;        // 基础标识符
     std::string component_id;      // 组件ID
-    std::string username;          // 用户名（TURN�?
-    std::string password;          // 密码（TURN�?
+    std::string username;          // 用户名（TURN）
+    std::string password;          // 密码（TURN）
     
     // 连接质量指标
     double latency_ms;             // 延迟（毫秒）
-    double bandwidth_mbps;         // 带宽（Mbps�?
-    double packet_loss_rate;       // 丢包�?
+    double bandwidth_mbps;         // 带宽（Mbps）
+    double packet_loss_rate;       // 丢包率
     uint32_t connection_attempts;  // 连接尝试次数
     uint32_t successful_connections; // 成功连接次数
     
-    // 时间�?
+    // 时间戳
     std::chrono::steady_clock::time_point last_checked;
     std::chrono::steady_clock::time_point last_successful;
     
@@ -74,9 +74,9 @@ struct CandidateAddress {
 struct ConnectionQuality {
     double latency_ms;             // 延迟
     double bandwidth_mbps;         // 带宽
-    double packet_loss_rate;       // 丢包�?
+    double packet_loss_rate;       // 丢包率
     double jitter_ms;              // 抖动
-    uint32_t rtt_samples;          // RTT样本�?
+    uint32_t rtt_samples;          // RTT样本数
     std::chrono::steady_clock::time_point timestamp;
     
     ConnectionQuality();
@@ -86,13 +86,13 @@ struct ConnectionQuality {
 };
 
 /**
- * NAT穿透配�?
+ * NAT穿透配置
  */
 struct NATTraversalConfig {
     // 基本配置
     uint32_t connection_timeout_ms;        // 连接超时时间
-    uint32_t max_retry_attempts;           // 最大重试次�?
-    uint32_t concurrent_connections;       // 并发连接�?
+    uint32_t max_retry_attempts;           // 最大重试次数
+    uint32_t concurrent_connections;       // 并发连接数
     uint32_t heartbeat_interval_ms;        // 心跳间隔
     
     // 高级配置
@@ -102,28 +102,28 @@ struct NATTraversalConfig {
     bool enable_machine_learning;          // 启用机器学习优化
     
     // STUN/TURN配置
-    std::vector<std::string> stun_servers; // STUN服务器列�?
-    std::vector<std::string> turn_servers; // TURN服务器列�?
-    std::string turn_username;             // TURN用户�?
+    std::vector<std::string> stun_servers; // STUN服务器列表
+    std::vector<std::string> turn_servers; // TURN服务器列表
+    std::string turn_username;             // TURN用户名
     std::string turn_password;             // TURN密码
     
-    // 质量阈�?
-    double min_bandwidth_mbps;             // 最小带宽要�?
-    double max_latency_ms;                 // 最大延迟要�?
+    // 质量阈值
+    double min_bandwidth_mbps;             // 最小带宽要求
+    double max_latency_ms;                 // 最大延迟要求
     double max_packet_loss_rate;           // 最大丢包率
     
     NATTraversalConfig();
 };
 
 /**
- * NAT穿透结�?
+ * NAT穿透结果
  */
 struct NATTraversalResult {
     bool success;                          // 是否成功
     NATType detected_nat_type;             // 检测到的NAT类型
     std::vector<CandidateAddress> candidates; // 候选地址列表
     std::string selected_address;          // 选中的地址
-    uint16_t selected_port;                // 选中的端�?
+    uint16_t selected_port;                // 选中的端口
     double connection_time_ms;             // 连接建立时间
     ConnectionQuality quality;             // 连接质量
     std::string error_message;             // 错误信息
@@ -132,7 +132,7 @@ struct NATTraversalResult {
 };
 
 /**
- * 连接质量监控�?
+ * 连接质量监控器
  */
 class P2P_API ConnectionQualityMonitor {
 public:
@@ -160,7 +160,7 @@ private:
 };
 
 /**
- * 增强的NAT穿透引�?- 基于最新学术研�?
+ * 增强的NAT穿透引擎 - 基于最新学术研究
  */
 class P2P_API NATTraversalEngine {
 public:
@@ -172,7 +172,7 @@ public:
     void shutdown();
     bool is_initialized() const;
     
-    // NAT类型检�?
+    // NAT类型检测
     NATType detect_nat_type();
     NATType detect_nat_type_async(std::function<void(NATType)> callback);
     
@@ -216,7 +216,7 @@ private:
 };
 
 /**
- * 智能连接管理�?
+ * 智能连接管理器
  */
 class P2P_API SmartConnectionManager {
 public:
@@ -246,7 +246,7 @@ private:
 };
 
 /**
- * 机器学习优化�?
+ * 机器学习优化器
  */
 class P2P_API MLOptimizer {
 public:

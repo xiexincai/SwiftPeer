@@ -12,7 +12,7 @@ void InMemorySegmentStore::put(const PieceData& piece) {
     std::string key = make_key(piece.id);
     pieces_[key] = piece;
     
-    // 更新流索引
+    // Update stream index
     auto& indices = stream_indices_[piece.id.streamId];
     if (std::find(indices.begin(), indices.end(), piece.id.pieceIndex) == indices.end()) {
         indices.push_back(piece.id.pieceIndex);
@@ -64,8 +64,8 @@ size_t InMemorySegmentStore::total_bytes() const {
 }
 
 void InMemorySegmentStore::cleanup_expired(const std::chrono::seconds& max_age) {
-    // 简化实现，实际项目中可能需要添加时间戳字段
-    // 这里暂时不实现清理逻辑
+    // Simplified implementation, actual project may need to add timestamp fields
+    // Temporarily not implementing cleanup logic here
 }
 
 std::string InMemorySegmentStore::make_key(const PieceId& id) const {

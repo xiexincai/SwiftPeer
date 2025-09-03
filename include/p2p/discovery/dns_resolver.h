@@ -14,13 +14,13 @@ public:
     // 设置自定义解析回调
     void set_custom_resolver(std::function<std::string(const std::string&)> resolver);
     
-    // 解析域名到IP地址
+    // 将主机名解析为IP地址
     std::string resolve(const std::string& hostname);
     
-    // 异步解析域名
+    // 异步解析主机名
     std::future<std::string> resolve_async(const std::string& hostname);
     
-    // 检查是否为有效IP地址
+    // 检查是否为有效的IP地址
     static bool is_valid_ip(const std::string& ip);
 
 private:
@@ -31,5 +31,3 @@ private:
 };
 
 } // namespace p2p_core
-
-

@@ -2,7 +2,7 @@
 
 namespace p2p_core {
 
-// Ensure socket stack is initialized on platforms that require it (e.g., Windows)
+// 确保在需要它的平台上初始化套接字栈（例如Windows）
 struct NetStackInit {
   NetStackInit();
   ~NetStackInit();
